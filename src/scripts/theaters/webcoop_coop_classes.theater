@@ -199,10 +199,10 @@
 			{
 				"weapon"				"weapon_mg34"	
 				"weapon"				"weapon_stg44"
-				"weapon"				"weapon_fg42"
+				"weapon"				"weapon_fg42"				
 				"weapon"				"weapon_p38"
 				"weapon"				"weapon_ppk"
-				"weapon"				"weapon_splintering"
+				"weapon"				"weapon_splintering"			
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"optic_scope_4x"
 			}
@@ -213,6 +213,7 @@
 					"weapon_stg44"				"0"				
 					"weapon_p38"				"4"
 					"weapon_ppk"				"0"
+					"weapon_nebelhandgranate" 	"1"
 					"weapon_splintering" 		"0"
 					"weapon_binoculars_german" 	"1"
 				}
@@ -468,7 +469,7 @@
 				"weapon"				"weapon_m1carbine"
 				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_sw1917"
+				"weapon"				"weapon_sw1917"				
 				"weapon"				"weapon_mk2"
 				"weapon"				"weapon_binoculars_american"				
 				"weapon_upgrade"		"default_bayonet"
@@ -578,13 +579,13 @@
 		
 		"template_german_elite_1st"
 		{
-			"print_name"				"#unit_1stinfantry"
+			"print_name"				"#unit_german_1stinfantry"
 			"response_rules_key"		"german01"
 			
 			"elite_bot_only"			"1"
 		
 			"icon"						"rifleman"
-			"unit"						"unit_1stinfantry"
+			"unit"						"unit_german_1stinfantry"
 					
 			"buy_order"
 			{
@@ -711,7 +712,7 @@
 			"icon"						"support"
 			"elite_bot_only"			"1"
 			
-			"unit"						"unit_german_1stpanzer"
+			"unit"						"unit_german_1stinfantry"
 	
 			"buy_order"
 			{
@@ -740,7 +741,7 @@
 			"icon"						"rifleman"
 			"elite_bot_only"			"1"
 			
-			"unit"						"unit_german_1stpanzer"
+			"unit"						"unit_german_1stinfantry"
 	
 			"buy_order"
 			{
@@ -832,13 +833,13 @@
 		
 		"template_american_elite_airborne_2"
 		{
-			"print_name"				"#unit_american_82ndairborne"
+			"print_name"				"#unit_american_usarmy"
 			"response_rules_key"		"american01"
 			
 			"elite_bot_only"			"1"
 			
 			"icon"						"rifleman"
-			"unit"						"unit_american_82ndairborne"
+			"unit"						"unit_american_usarmy"
 			
 			"buy_order"
 			{

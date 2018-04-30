@@ -1,16 +1,15 @@
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
-"#base" "default_weapon_american.theater"
-"#base" "default_weapon_german.theater"
-"#base" "default_weapon_commonwealth.theater"
+"#base" "webcoop_weapon_american.theater"
+"#base" "webcoop_weapon_german.theater"
+"#base" "webcoop_weapon_commonwealth.theater"
 "#base" "default_weapon_upgrades.theater"
 "#base"	"default_firesupport.theater"
-"#base"	"default_unlocks_americans.theater"
-"#base"	"default_unlocks_axis.theater"
-"#base"	"default_unlocks_commonwealth.theater"
-"#base"	"default_unlocks_weapons.theater"
-"#base"	"webcoop_default_coop_classes.theater"
-
+"#base"	"webcoop_plantables.theater"
+"#base"	"webcoop_unlocks_americans.theater"
+"#base"	"webcoop_unlocks_axis.theater"
+"#base"	"webcoop_unlocks_commonwealth.theater"
+"#base"	"webcoop_unlocks_weapons.theater"
 
 "theater"
 {
@@ -178,6 +177,7 @@
 				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
 				"gear"					"american_light_kit"
 				"weapon"				"weapon_binoculars_american"
 			}
@@ -185,12 +185,7 @@
 			{
 				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_m1carbine"
-				
-				"?has_m1para_access"
-				{
-					"weapon"			"weapon_m1paratrooper"
-				}
-				
+				"weapon"			  "weapon_m1paratrooper"
 				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_sw1917"				
@@ -202,33 +197,35 @@
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_clips_sw1917"
 				"weapon_upgrade"		"barrel_greased_bolt"
+
+				"plantable"				"healthpack"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_m1garand"		"0"
-					"weapon_m1carbine"		"0"
-					"weapon_m1paratrooper"	"0"
-					"weapon_thompson_m1a1"	"0"
-					"weapon_m1911"			"0"
-					"weapon_sw1917"			"0"					
-					"weapon_mk2" 			"0"
+					"weapon_m1garand"		"3"
+					"weapon_m1carbine"		"4"
+					"weapon_m1paratrooper"	"4"
+					"weapon_thompson_m1a1"	"5"
+					"weapon_m1911"			"2"
+					"weapon_sw1917"			"1"					
+					"weapon_mk2" 			"3"
 				}
 				
 				"weapon_upgrade"
 				{
-					"default_optics"		"0"
-					"default_sling"			"0"
-					"default_bayonet"		"0"
-					"magazine_clips_sw1917"	"0"
-					"barrel_greased_bolt"			"0"
+					"default_optics"		"1"
+					"default_sling"			"1"
+					"default_bayonet"		"2"
+					"magazine_clips_sw1917"	"1"
+					"barrel_greased_bolt"			"2"
 				}
 
 				"gear"
 				{
-					"american_light_kit"	"0"
-					"american_heavy_kit"	"0"
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
 				}
 			}
 		}
@@ -259,6 +256,7 @@
 				"weapon"				"weapon_sten_mk5"
 				"weapon"				"weapon_webley"
 				"weapon_upgrade"		"magazine_speedloader_webley"
+				"weapon"				"weapon_no36"
 				"gear"					"commonwealth_light_kit"
 				"weapon"				"weapon_binoculars_british"
 			}
@@ -267,10 +265,7 @@
 				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_sten_mk5"
 				"weapon"				"weapon_thompson_m1928a1"
-				"?has_owen_access"
-				{
-					"weapon"				"weapon_owen"
-				}
+				"weapon"				"weapon_owen"
 				"weapon"				"weapon_welrod"
 				"weapon"				"weapon_webley"
 				"weapon"				"weapon_browninghp"
@@ -280,36 +275,38 @@
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_stripper_clips"
+
+				"plantable"				"healthpack"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_enfield"			"0"
-					"weapon_sten_mk5"			"0"
-					"weapon_owen"				"0"
-					"weapon_thompson_m1928a1"	"0"
-					"weapon_welrod"				"0"
-					"weapon_webley"				"0"
-					"weapon_browninghp"			"0"
-					"weapon_no36" 				"0"
+					"weapon_enfield"			"1"
+					"weapon_sten_mk5"			"4"
+					"weapon_owen"				"4"
+					"weapon_thompson_m1928a1"	"6"
+					"weapon_welrod"				"1"
+					"weapon_webley"				"2"
+					"weapon_browninghp"			"3"
+					"weapon_no36" 				"3"
 				}
 
 				"weapon_upgrade"
 				{
-					"default_sling"						"0"
-					"magazine_extended_thompson_30rd"	"0"
-					"default_bayonet"					"0"
-					"underbarrel_foregrip"				"0"
-					"magazine_speedloader_webley"		"0"
-					"magazine_stripper_clips"			"0"
-					"barrel_greased_bolt"			"0"
+					"default_sling"						"1"
+					"magazine_extended_thompson_30rd"	"1"
+					"default_bayonet"					"2"
+					"underbarrel_foregrip"				"3"
+					"magazine_speedloader_webley"		"1"
+					"magazine_stripper_clips"			"1"
+					"barrel_greased_bolt"			"2"
 				}
 
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
+					"commonwealth_light_kit"	"2"
+					"commonwealth_heavy_kit"	"5"
 				}
 			}
 		}
@@ -339,6 +336,7 @@
 				"weapon"				"weapon_k98bayonet"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_luger"
+				"weapon"				"weapon_stielhandgranate"
 				"gear"					"german_light_kit"
 				"weapon"				"weapon_binoculars_german"
 			}
@@ -355,31 +353,33 @@
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_stripper_clips"
+
+				"plantable"				"healthpack"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_k98"					"0"
-					"weapon_mp40"					"0"
-					"weapon_g43"					"0"
-					"weapon_luger"					"0"
-					"weapon_c96"					"0"
-					"weapon_stielhandgranate" 		"0"
-					"weapon_splintering" 			"0"
+					"weapon_k98"					"1"
+					"weapon_mp40"					"4"
+					"weapon_g43"					"6"
+					"weapon_luger"					"3"
+					"weapon_c96"					"4"
+					"weapon_stielhandgranate" 		"3"
+					"weapon_splintering" 			"4"
 				}
 				
 				"weapon_upgrade"
 				{
-					"default_sling"						"0"
-					"magazine_stripper_clips"			"0"
-					"barrel_greased_bolt"			"0"
+					"default_sling"						"1"
+					"magazine_stripper_clips"			"1"
+					"barrel_greased_bolt"			"2"
 				}
 
 				"gear"
 				{
-					"german_light_kit"	"0"
-					"german_heavy_kit"	"0"
+					"german_light_kit"	"2"
+					"german_heavy_kit"	"5"
 				}
 			}
 		}
@@ -408,6 +408,7 @@
 				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_m1carbine"
 				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
 				"gear"					"american_light_kit"
 				"gear"					"gear_radio"
 			}
@@ -416,13 +417,8 @@
 			{
 				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_m1carbine"	
-				
-				"?has_m1para_access"
-				{
-					"weapon"			"weapon_m1paratrooper"
-				}
-				
-				"weapon"				"weapon_m1911"
+				"weapon"			  "weapon_m1paratrooper"	
+				"weapon"				"weapon_m1911"			
 				"weapon"				"weapon_mk2"
 				"weapon"				"weapon_binoculars_american"		
 				"weapon_upgrade"		"magazine_stripper_clips"
@@ -435,27 +431,27 @@
 			{
 				"weapon"
 				{
-					"weapon_m1garand"				"0"
-					"weapon_m1carbine"				"0"
-					"weapon_m1paratrooper"			"0"
-					"weapon_m3greasegun"			"0"
-					"weapon_m1911"					"0"
-					"weapon_mk2"					"0"
-					"weapon_binoculars_american"	"0"
+					"weapon_m1garand"				"3"
+					"weapon_m1carbine"				"4"
+					"weapon_m1paratrooper"			"4"
+					"weapon_m3greasegun"			"5"
+					"weapon_m1911"					"3"				
+					"weapon_mk2"					"3"
+					"weapon_binoculars_american"	"1"
 				}
 				
 				"weapon_upgrade"
 				{
-					"magazine_stripper_clips"		"0"
-					"barrel_greased_bolt"			"0"
-					"default_sling"					"0"
-					"default_bayonet"				"0"
+					"magazine_stripper_clips"		"1"
+					"barrel_greased_bolt"			"2"
+					"default_sling"					"1"
+					"default_bayonet"				"2"
 				}
 
 				"gear"
 				{
-					"american_light_kit"	"0"
-					"american_heavy_kit"	"0"
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
 					"gear_radio"			"0"
 				}
 			}
@@ -485,6 +481,7 @@
 				"weapon"				"weapon_enfield_bayonet"
 				"weapon"				"weapon_ithaca"
 				"weapon"				"weapon_browninghp"
+				"weapon"				"weapon_no36"
 				"gear"					"commonwealth_light_kit"
 				"gear"					"gear_radio_commonwealth"
 			}
@@ -509,29 +506,29 @@
 			{
 				"weapon"
 				{
-					"weapon_enfield" 			"0"
-					"weapon_ithaca" 			"0"
-					"weapon_sten_mk5"			"0"
-					"weapon_webley" 			"0"
-					"weapon_browninghp" 		"0"
-					"weapon_no77" 				"0"
-					"weapon_no36" 				"0"
-					"weapon_binoculars_british"	"0"
+					"weapon_enfield" 			"1"
+					"weapon_ithaca" 			"3"
+					"weapon_sten_mk5"			"5"
+					"weapon_webley" 			"2"
+					"weapon_browninghp" 		"3"
+					"weapon_no77" 				"2"
+					"weapon_no36" 				"3"
+					"weapon_binoculars_british"	"1"
 				}
 
 				"weapon_upgrade"
 				{
-					"default_sling"					"0"
-					"magazine_stripper_clips"		"0"
-					"default_bayonet"				"0"
-					"magazine_speedloader_webley"	"0"
-					"barrel_greased_bolt"			"0"
+					"default_sling"					"1"
+					"magazine_stripper_clips"		"1"
+					"default_bayonet"				"2"
+					"magazine_speedloader_webley"	"1"
+					"barrel_greased_bolt"			"2"
 				}
 				
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
+					"commonwealth_light_kit"	"2"
+					"commonwealth_heavy_kit"	"5"
 					"gear_radio_commonwealth"	"0"
 				}
 			}
@@ -560,6 +557,7 @@
 			{
 				"weapon"				"weapon_k98bayonet"
 				"weapon"				"weapon_g43"
+				"weapon"				"weapon_stielhandgranate"
 				"gear"					"german_light_kit"
 				"gear"					"gear_radio_german"
 			}
@@ -581,26 +579,26 @@
 			{
 				"weapon"
 				{
-					"weapon_k98"					"0"
-					"weapon_mp40"					"0"
-					"weapon_g43"					"0"
-					"weapon_p38"					"0"
-					"weapon_ppk"					"0"
-					"weapon_stielhandgranate" 		"0"
-					"weapon_binoculars_german"		"0"
+					"weapon_k98"					"1"
+					"weapon_mp40"					"5"
+					"weapon_g43"					"6"
+					"weapon_p38"					"2"
+					"weapon_ppk"					"3"
+					"weapon_stielhandgranate" 		"3"
+					"weapon_binoculars_german"		"1"
 				}
 				
 				"weapon_upgrade"
 				{
-					"magazine_stripper_clips"		"0"
-					"barrel_greased_bolt"			"0"
-					"default_sling"					"0"
+					"magazine_stripper_clips"		"1"
+					"barrel_greased_bolt"			"2"
+					"default_sling"					"1"
 				}
 
 				"gear"
 				{
-					"german_light_kit"	"0"
-					"german_heavy_kit"	"0"
+					"german_light_kit"	"2"
+					"german_heavy_kit"	"5"
 					"gear_radio_german"	"0"
 				}
 			}
@@ -647,35 +645,36 @@
 				"weapon_upgrade"		"barrel_greased_bolt"
                 "weapon_upgrade"        "underbarrel_rifle_grenade_springfield"
 				"gear"					"gear_radio"
+				"plantable"				"crate_placeable"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_springfield"			"0"
-					"weapon_m1garand"				"0"
-					"weapon_m1carbine"				"0"
-					"weapon_m1911"					"0"
-					"weapon_sw1917"					"0"
-					"weapon_mk2"					"0"
-					"weapon_binoculars_american"	"0"
+					"weapon_springfield"			"1"
+					"weapon_m1garand"				"4"
+					"weapon_m1carbine"				"5"
+					"weapon_m1911"					"5"
+					"weapon_sw1917"					"4"					
+					"weapon_mk2"					"3"
+					"weapon_binoculars_american"	"2"
 				}
 				
 				"weapon_upgrade"
 				{
-					"default_sling"							"0"
-					"default_bayonet"						"0"
-					"magazine_stripper_clips"				"0"
-					"barrel_greased_bolt"					"0"
-					"underbarrel_rifle_grenade_springfield"	"0"
-					"magazine_clips_sw1917"					"0"
+					"default_sling"							"1"
+					"default_bayonet"						"1"
+					"magazine_stripper_clips"				"1"
+					"barrel_greased_bolt"					"1"
+					"underbarrel_rifle_grenade_springfield"	"4"
+					"magazine_clips_sw1917"					"1"
 				}
 
 				"gear"
 				{
-					"american_light_kit"	"0"
-					"american_heavy_kit"	"0"
-					"gear_radio"			"0"
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
+					"gear_radio"			"3"
 				}
 			}
 
@@ -739,35 +738,36 @@
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"underbarrel_rifle_grenade"
 				"gear"					"gear_radio_commonwealth"
+				"plantable"				"crate_placeable"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_enfield"			"0"
-					"weapon_webley"				"0"
-					"weapon_browninghp"			"0"
-					"weapon_no69"				"0"
-					"weapon_no36"				"0"
-					"weapon_binoculars_british"	"0"
+					"weapon_enfield"			"1"
+					"weapon_webley"				"3"
+					"weapon_browninghp"			"5"
+					"weapon_no69"				"3"
+					"weapon_no36"				"3"
+					"weapon_binoculars_british"	"2"
 				}
 				
 				"weapon_upgrade"
 				{
-					"default_sling"					"0"
-					"default_bayonet"				"0"
-					"default_bayonet_spike"			"0"
-					"magazine_stripper_clips"		"0"
-					"barrel_greased_bolt"			"0"
-					"underbarrel_rifle_grenade"		"0"
-					"magazine_speedloader_webley"	"0"
+					"default_sling"					"1"
+					"default_bayonet"				"1"
+					"default_bayonet_spike"			"1"
+					"magazine_stripper_clips"		"1"
+					"barrel_greased_bolt"			"1"
+					"underbarrel_rifle_grenade"		"4"
+					"magazine_speedloader_webley"	"1"
 				}
 
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
-					"gear_radio_commonwealth"	"0"
+					"commonwealth_light_kit"	"2"
+					"commonwealth_heavy_kit"	"5"
+					"gear_radio_commonwealth"	"3"
 				}
 			}
 
@@ -829,33 +829,34 @@
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"underbarrel_rifle_grenade_k98"
 				"gear"					"gear_radio_german"
+				"plantable"				"crate_placeable"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_k98"				"0"
-					"weapon_g43"				"0"
-					"weapon_p38"				"0"
-					"weapon_stielhandgranate"	"0"
-					"weapon_splintering"		"0"
-					"weapon_binoculars_german"	"0"
+					"weapon_k98"				"1"
+					"weapon_g43"				"6"
+					"weapon_p38"				"5"
+					"weapon_stielhandgranate"	"3"
+					"weapon_splintering"		"4"
+					"weapon_binoculars_german"	"2"
 				}
 				
 				"weapon_upgrade"
 				{
-					"default_sling"					"0"
-					"default_bayonet"				"0"
-					"magazine_stripper_clips"		"0"
-					"barrel_greased_bolt"			"0"
-					"underbarrel_rifle_grenade_k98"	"0"
+					"default_sling"					"1"
+					"default_bayonet"				"1"
+					"magazine_stripper_clips"		"1"
+					"barrel_greased_bolt"			"1"
+					"underbarrel_rifle_grenade_k98"	"4"
 				}
 
 				"gear"
 				{
-					"german_light_kit"	"0"
-					"german_heavy_kit"	"0"
-					"gear_radio_german"	"0"
+					"german_light_kit"	"2"
+					"german_heavy_kit"	"5"
+					"gear_radio_german"	"3"
 				}
 			}
 
@@ -908,7 +909,7 @@
 				"weapon"				"weapon_m3greasegun"
 				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_sw1917"
+				"weapon"				"weapon_sw1917"					
 				"weapon"				"weapon_mk2"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_clips_sw1917"
@@ -918,22 +919,22 @@
 			{
 				"weapon"
 				{
-					"weapon_m3greasegun" 	"0"
-					"weapon_thompson_m1a1" 	"0"
-					"weapon_m1911"			"0"
-					"weapon_sw1917"			"0"
-					"weapon_mk2"			"0"
+					"weapon_m3greasegun" 	"4"
+					"weapon_thompson_m1a1" 	"6"
+					"weapon_m1911"			"4"
+					"weapon_sw1917"			"3"					
+					"weapon_mk2"			"3"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"			"0"
-					"magazine_clips_sw1917"	"0"
+					"default_sling"			"1"
+					"magazine_clips_sw1917"	"1"
 				}
 				"gear"
 				{
-					"american_light_kit"	"0"
-					"american_heavy_kit"	"0"
-					"gear_radio"			"0"
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
+					"gear_radio"			"3"
 				}
 			}
 
@@ -981,11 +982,7 @@
 			{
 				"weapon"				"weapon_ithaca"
 				"weapon"				"weapon_sten_mk2"
-			
-				"?has_owen_access"
-				{
-					"weapon"				"weapon_owen"
-				}
+				"weapon"				"weapon_owen"
 				"weapon"				"weapon_webley"
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no69"
@@ -997,30 +994,30 @@
 			{
 				"weapon"
 				{
-					"weapon_ithaca"		"0"
-					"weapon_sten_mk2"	"0"
-					"weapon_owen"		"0"
-					"weapon_thompson_m1928a1" "0"
-					"weapon_webley"		"0"
-					"weapon_browninghp"	"0"
-					"weapon_no69"		"0"
+					"weapon_ithaca"		"3"
+					"weapon_sten_mk2"	"4"
+					"weapon_owen"		"5"
+					"weapon_thompson_m1928a1" "6"
+					"weapon_webley"		"2"
+					"weapon_browninghp"	"4"
+					"weapon_no69"		"3"
 				}
 
 				"weapon_upgrade"
 				{
-					"default_sling"					"0"
-					"magazine_speedloader_webley"	"0"
-					"magazine_extended_thompson_50rd" 	"0"
-					"magazine_extended_thompson_30rd" 	"0"
-					"underbarrel_foregrip" 				"0"
-					"barrel_silencer"				"0"
+					"default_sling"					"1"
+					"magazine_speedloader_webley"	"1"
+					"magazine_extended_thompson_50rd" 	"6"
+					"magazine_extended_thompson_30rd" 	"3"
+					"underbarrel_foregrip" 				"2"
+					"barrel_silencer"				"4"
 				}
 
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
-					"gear_radio_commonwealth"	"0"
+					"commonwealth_light_kit"	"1"
+					"commonwealth_heavy_kit"	"5"
+					"gear_radio_commonwealth"	"3"
 				}
 			}
 
@@ -1080,26 +1077,26 @@
 			{
 				"weapon"
 				{
-					"weapon_mp40"				"0"
-					"weapon_c96carbine"			"0"
-					"weapon_p38"				"0"
-					"weapon_ppk"				"0"
-					"weapon_stielhandgranate"	"0"
-					"weapon_splintering"		"0"
-					"weapon_binoculars_german"	"0"
+					"weapon_mp40"				"4"
+					"weapon_c96carbine"			"5"
+					"weapon_p38"				"3"
+					"weapon_ppk"				"4"
+					"weapon_stielhandgranate"	"3"
+					"weapon_splintering"		"4"
+					"weapon_binoculars_german"	"1"
 				}
 				
 				"weapon_upgrade"
 				{
-					"default_sling"				"0"
-					"magazine_extended_c96"		"0"
+					"default_sling"				"1"
+					"magazine_extended_c96"		"3"
 				}
 
 				"gear"
 				{
-					"german_light_kit"	"0"
-					"german_heavy_kit"	"0"
-					"gear_radio_german"	"0"
+					"german_light_kit"	"1"
+					"german_heavy_kit"	"5"
+					"gear_radio_german"	"3"
 				}
 			}
 
@@ -1139,6 +1136,7 @@
 			{
 				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_bar"
+				"weapon"				"weapon_mk2"
 				"gear"					"american_heavy_kit"
 			}
 			"allowed_items"
@@ -1150,26 +1148,28 @@
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"underbarrel_bipod"
 				"weapon_upgrade"		"magazine_clips_sw1917"
+				
+				"plantable"				"ammo_pouch_allied"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_bar" 					"0"
-					"weapon_m1911" 					"0"
-					"weapon_mk2" 					"0"
-					"weapon_binoculars_american" 	"0"
+					"weapon_bar" 					"5"
+					"weapon_m1911" 					"4"
+					"weapon_mk2" 					"3"
+					"weapon_binoculars_american" 	"1"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"					"0"
-					"underbarrel_bipod"				"0"
-					"magazine_clips_sw1917"			"0"
+					"default_sling"					"1"
+					"underbarrel_bipod"				"2"
+					"magazine_clips_sw1917"			"1"
 				}
 				"gear"
 				{
-					"american_light_kit"			"0"
-					"american_heavy_kit"			"0"
+					"american_light_kit"			"2"
+					"american_heavy_kit"			"4"
 				}
 			}		
 		}
@@ -1197,6 +1197,7 @@
 			{
 				"weapon"				"weapon_enfield_bayonet"
 				"weapon"				"weapon_bren_mk2"
+				"weapon"				"weapon_no36"
 				"gear"					"commonwealth_heavy_kit"
 			}
 			"allowed_items"
@@ -1209,29 +1210,31 @@
 				"weapon"				"weapon_binoculars_british"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_speedloader_webley"
+				
+				"plantable"				"ammo_pouch_allied"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_bren_mk2" 			"0"
-					"weapon_lewis" 				"0"
-					"weapon_webley" 			"0"
-					"weapon_browninghp" 		"0"
-					"weapon_no36" 				"0"
-					"weapon_binoculars_british"	"0"
+					"weapon_bren_mk2" 			"4"
+					"weapon_lewis" 				"6"
+					"weapon_webley" 			"3"
+					"weapon_browninghp" 		"4"
+					"weapon_no36" 				"3"
+					"weapon_binoculars_british"	"1"
 				}
 
 				"weapon_upgrade"
 				{
-					"default_sling"					"0"
-					"magazine_speedloader_webley"	"0"
+					"default_sling"					"1"
+					"magazine_speedloader_webley"	"1"
 				}
 				
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
+					"commonwealth_light_kit"	"2"
+					"commonwealth_heavy_kit"	"4"
 				}
 			}		
 		}
@@ -1258,56 +1261,49 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_k98bayonet"
-				"weapon"				"weapon_mg34"
 				"weapon"				"weapon_stg44"
+				"weapon"				"weapon_splintering"
 				"gear"					"german_light_kit"
 			}
 			"allowed_items"
 			{
-				"weapon"				"weapon_mg34"
-				"weapon"				"weapon_stg44"				
-		
-				"?has_stg44_access"
-				{
-					"weapon"				"weapon_stg44"
-				}
-				
-				"?has_fg42_access"
-				{
-					"weapon"				"weapon_fg42"	
-				}
-				
+				"weapon"				"weapon_mg34"	
+				"weapon"				"weapon_stg44"
+				"weapon"				"weapon_fg42"
 				"weapon"				"weapon_ppk"		
 				"weapon"				"weapon_p38"
 				"weapon"				"weapon_splintering"			
+				"weapon"				"weapon_stielhandgranate"			
 				"weapon"				"weapon_binoculars_german"
 				
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"optic_scope_4x"
+				
+				"plantable"				"ammo_pouch_axis"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_mg34"				"0"
-					"weapon_fg42"				"0"	
-					"weapon_stg44"				"0"				
-					"weapon_p38"				"0"
-					"weapon_ppk"				"0"
-					"weapon_splintering" 		"0"
-					"weapon_binoculars_german" 	"0"
+					"weapon_mg34"				"4"
+					"weapon_fg42"				"6"	
+					"weapon_stg44"				"7"				
+					"weapon_p38"				"4"
+					"weapon_ppk"				"5"
+					"weapon_splintering" 		"3"
+					"weapon_binoculars_german" 	"1"
 				}
 				
 				"weapon_upgrade"
 				{
-					"default_sling"				"0"
-					"optic_scope_4x"			"0"
+					"default_sling"				"1"
+					"optic_scope_4x"			"5"
 				}
 				
 				"gear"
 				{
-					"german_light_kit"		"0"
-					"german_heavy_kit"		"0"
+					"german_light_kit"		"2"
+					"german_heavy_kit"		"4"
 				}
 			}			
 		}
@@ -1335,6 +1331,7 @@
 			{
 				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_mk2"
 				"gear"					"american_light_kit"
 			}
 			
@@ -1350,21 +1347,21 @@
 			{				
 				"weapon"
 				{
-					"weapon_m1919"					"0"
-					"weapon_m1911"					"0"
-					"weapon_mk2"					"0"
-					"weapon_binoculars_american"	"0"
+					"weapon_m1919"					"6"
+					"weapon_m1911"					"3"
+					"weapon_mk2"					"3"
+					"weapon_binoculars_american"	"2"
 				}				
 				
 				"weapon_upgrade"
 				{
-					"magazine_clips_sw1917"			"0"
+					"magazine_clips_sw1917"			"1"
 				}
 				
 				"gear"
 				{
-					"american_light_kit"			"0"
-					"american_heavy_kit"			"0"
+					"american_light_kit"			"1"
+					"american_heavy_kit"			"3"
 				}
 			}
 						
@@ -1417,22 +1414,22 @@
 			{
 				"weapon"
 				{
-					"weapon_vickers"	"0"
-					"weapon_webley"		"0"
-					"weapon_browninghp"	"0"
-					"weapon_no36"		"0"
-					"weapon_binoculars_british"	"0"
+					"weapon_vickers"	"6"
+					"weapon_webley"		"2"
+					"weapon_browninghp"	"3"
+					"weapon_no36"		"3"
+					"weapon_binoculars_british"	"2"
 				}
 
 				"weapon_upgrade"
 				{
-					"magazine_speedloader_webley"	"0"
+					"magazine_speedloader_webley"	"1"
 				}
 				
 				"gear"
 				{
-					"commonwealth_light_kit"		"0"
-					"commonwealth_heavy_kit"		"0"
+					"commonwealth_light_kit"		"1"
+					"commonwealth_heavy_kit"		"3"
 				}
 			}
 			
@@ -1484,17 +1481,17 @@
 			{
 				"weapon"
 				{
-					"weapon_mg42"				"0"
-					"weapon_p38"				"0"
-					"weapon_luger"				"0"
-					"weapon_stielhandgranate"	"0"
-					"weapon_binoculars_german"	"0"
+					"weapon_mg42"				"6"
+					"weapon_p38"				"3"
+					"weapon_luger"				"4"
+					"weapon_stielhandgranate"	"3"
+					"weapon_binoculars_german"	"2"
 				}
 				
 				"gear"
 				{
-					"german_light_kit"		"0"
-					"german_heavy_kit"		"0"
+					"german_light_kit"		"1"
+					"german_heavy_kit"		"3"
 				}
 			}
 			
@@ -1533,44 +1530,41 @@
 				"weapon"				"weapon_springfield"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_mk2"
 				"gear"					"american_light_kit"
 			}
 			"allowed_items"
 			{
 				"weapon"				"weapon_springfield"
 				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_sw1917"
-				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_sw1917"				
+				"weapon"				"weapon_mk2"				
 				"weapon"				"weapon_binoculars_american"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_4x"
 				"weapon_upgrade"		"barrel_greased_bolt"
-				
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_springfield"			"0"
-					"weapon_m1garand"				"0"
-					"weapon_m1911"					"0"
-					"weapon_sw1917"					"0"
-					"weapon_mk2"					"0"
-					"weapon_binoculars_american"	"0"
+					"weapon_springfield"			"1"
+					"weapon_m1garand"				"5"
+					"weapon_m1911"					"3"
+					"weapon_sw1917"					"2"					
+					"weapon_binoculars_american"	"1"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"					"0"
-					"optic_scope_7x"				"0"
-					"optic_scope_4x"				"0"
-					"barrel_greased_bolt"			"0"
+					"default_sling"					"1"
+					"optic_scope_7x"				"3"
+					"optic_scope_4x"				"4"
+					"barrel_greased_bolt"			"3"
 				}
 				"gear"
 				{
-					"american_light_kit"			"0"
-					"american_heavy_kit"			"0"
+					"american_light_kit"			"2"
+					"american_heavy_kit"			"5"
 				}
 			}
 
@@ -1612,7 +1606,6 @@
 				"weapon"				"weapon_enfield"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon"				"weapon_welrod"
-				"weapon"				"weapon_no36"
 				"gear"					"commonwealth_light_kit"
 			}
 			"allowed_items"
@@ -1631,23 +1624,22 @@
 			{
 				"weapon"
 				{
-					"weapon_enfield" 			"0"
-					"weapon_welrod" 			"0"
-					"weapon_no36" 				"0"
-					"weapon_browninghp" 		"0"
-					"weapon_binoculars_british" "0"
+					"weapon_enfield" 			"1"
+					"weapon_welrod" 			"1"
+					"weapon_browninghp" 		"3"
+					"weapon_binoculars_british" "1"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"				"0"
-					"optic_scope_7x"			"0"
-					"optic_scope_4x"			"0"
-					"barrel_greased_bolt"		"0"
+					"default_sling"				"1"
+					"optic_scope_7x"			"3"
+					"optic_scope_4x"			"4"
+					"barrel_greased_bolt"		"3"
 				}
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
+					"commonwealth_light_kit"	"2"
+					"commonwealth_heavy_kit"	"5"
 				}
 			}
 
@@ -1689,7 +1681,6 @@
 				"weapon"				"weapon_k98"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon"				"weapon_ppk"
-				"weapon"				"weapon_stielhandgranate"
 				"gear"					"german_light_kit"
 			}
 			"allowed_items"
@@ -1702,32 +1693,31 @@
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_4x"
 				"weapon_upgrade"		"default_sling"
-				"weapon_upgrade"		"barrel_greased_bolt"	
+				"weapon_upgrade"		"barrel_greased_bolt"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_k98"				"0"
-					"weapon_g43"				"0"
-					"weapon_ppk"				"0"
-					"weapon_stielhandgranate"	"0"
-					"weapon_binoculars_german" 	"0"
+					"weapon_k98"				"1"
+					"weapon_g43"				"7"
+					"weapon_ppk"				"3"
+					"weapon_binoculars_german" 	"1"
 				}
 
 				"weapon_upgrade"
 				{
-					"default_sling"				"0"
-					"magazine_stripper_clips"	"0"
-					"optic_scope_7x"			"0"
-					"optic_scope_4x"			"0"
-					"barrel_greased_bolt"		"0"
+					"default_sling"				"1"
+					"magazine_stripper_clips"	"1"
+					"optic_scope_7x"			"3"
+					"optic_scope_4x"			"4"
+					"barrel_greased_bolt"		"3"
 				}
 				
 				"gear"
 				{
-					"german_light_kit"		"0"
-					"german_heavy_kit"		"0"
+					"german_light_kit"		"2"
+					"german_heavy_kit"		"5"
 				}
 			}
 
@@ -1791,26 +1781,26 @@
 			{
 				"weapon"
 				{
-					"weapon_springfield"		"0"
-					"weapon_m3greasegun"		"0"
-					"weapon_m1911"				"0"
-					"weapon_sw1917"				"0"					
-					"weapon_mk2"				"0"
-					"weapon_tnt"				"0"
-					"weapon_bazooka"			"0"
+					"weapon_springfield"		"1"
+					"weapon_m3greasegun"		"5"
+					"weapon_m1911"				"2"
+					"weapon_sw1917"				"2"					
+					"weapon_mk2"				"1"
+					"weapon_tnt"				"4"
+					"weapon_bazooka"			"5"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"				"0"
-					"magazine_stripper_clips"	"0"
-					"default_bayonet"			"0"
-					"magazine_bazooka_wp"		"0"
-					"barrel_greased_bolt"			"0"
+					"default_sling"				"1"
+					"magazine_stripper_clips"	"1"
+					"default_bayonet"			"2"
+					"magazine_bazooka_wp"		"1"
+					"barrel_greased_bolt"			"2"
 				}
 				"gear"
 				{
-					"american_light_kit"		"0"
-					"american_heavy_kit"		"0"
+					"american_light_kit"		"2"
+					"american_heavy_kit"		"5"
 				}
 			}
 			"player_settings_mods"
@@ -1869,25 +1859,25 @@
 			{
 				"weapon"
 				{
-					"weapon_enfield"			"0"
-					"weapon_sten_mk2"			"0"
-					"weapon_browninghp"			"0"
-					"weapon_no77"				"0"
-					"weapon_no69"				"0"
-					"weapon_tnt"				"0"
-					"weapon_piat"				"0"
+					"weapon_enfield"			"1"
+					"weapon_sten_mk2"			"5"
+					"weapon_browninghp"			"2"
+					"weapon_no77"				"1"
+					"weapon_no69"				"1"
+					"weapon_tnt"				"4"
+					"weapon_piat"				"5"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"				"0"
-					"magazine_stripper_clips"	"0"
-					"default_bayonet"			"0"
-					"barrel_greased_bolt"			"0"
+					"default_sling"				"1"
+					"magazine_stripper_clips"	"1"
+					"default_bayonet"			"2"
+					"barrel_greased_bolt"			"2"
 				}
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
+					"commonwealth_light_kit"	"2"
+					"commonwealth_heavy_kit"	"5"
 				}
 			}
 			"player_settings_mods"
@@ -1949,30 +1939,30 @@
 			{
 				"weapon"
 				{
-					"weapon_k98"			"0"
-					"weapon_mp40"			"0"
-					"weapon_p38" 			"0"
-					"weapon_ppk" 			"0"
-					"weapon_splintering"	"0"
-					"weapon_panzerfaust"	"0"
-					"weapon_sprengbuchse"	"0"
-					"weapon_panzerschreck"	"0"
+					"weapon_k98"			"1"
+					"weapon_mp40"			"5"
+					"weapon_p38" 			"2"
+					"weapon_ppk" 			"3"
+					"weapon_splintering"	"2"
+					"weapon_panzerfaust"	"4"
+					"weapon_sprengbuchse"	"4"
+					"weapon_panzerschreck"	"5"
 					"weapon_flamethrower_eintoss46_german" "4"
 				}
 
 				"weapon_upgrade"
 				{
-					"default_sling"				"0"
-					"magazine_stripper_clips"	"0"
-					"default_bayonet"			"0"
-					"magazine_extended_c96"		"0"
-					"barrel_greased_bolt"			"0"
+					"default_sling"				"1"
+					"magazine_stripper_clips"	"1"
+					"default_bayonet"			"2"
+					"magazine_extended_c96"		"3"
+					"barrel_greased_bolt"			"2"
 				}
 				
 				"gear"
 				{
-					"german_light_kit"		"0"
-					"german_heavy_kit"		"0"
+					"german_light_kit"		"2"
+					"german_heavy_kit"		"5"
 				}
 			}
 			"player_settings_mods"
@@ -2015,7 +2005,8 @@
 			{
 				"weapon"				"weapon_flamethrower_american"
 				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_sw1917"			
+				"weapon"				"weapon_sw1917"	
+        "weapon"				"weapon_mk2"				
 				"weapon_upgrade"		"magazine_clips_sw1917"
 				"gear"					"gear_fuel_tank_american"
 			}
@@ -2023,20 +2014,20 @@
 			{
 				"weapon"
 				{
-					"weapon_flamethrower_american"	"0"
-					"weapon_m1911"					"0"
-					"weapon_sw1917"					"0"				
+					"weapon_flamethrower_american"	"6"
+					"weapon_m1911"					"4"
+					"weapon_sw1917"					"3"						
 				}
 				
 				"weapon_upgrade"
 				{
-					"magazine_clips_sw1917"			"0"
+					"magazine_clips_sw1917"			"1"
 				}
 				
 				"gear"
 				{
-					"american_light_kit"			"0"
-					"american_heavy_kit"			"0"
+					"american_light_kit"			"2"
+					"american_heavy_kit"			"5"
 				}
 			}
 			
@@ -2082,7 +2073,8 @@
 			{
 				"weapon"				"weapon_flamethrower_british"
 				"weapon"				"weapon_webley"
-				"weapon"				"weapon_browninghp"			
+				"weapon"				"weapon_browninghp"
+        "weapon"				"weapon_no36"				
 				"weapon_upgrade"		"magazine_speedloader_webley"
 				"gear"					"gear_fuel_tank"
 			}
@@ -2090,18 +2082,18 @@
 			{
 				"weapon"
 				{
-					"weapon_flamethrower_british"	"0"
-					"weapon_webley"					"0"
-					"weapon_browninghp"				"0"
+					"weapon_flamethrower_british"	"6"
+					"weapon_webley"					"3"
+					"weapon_browninghp"				"4"
 				}
 				"weapon_upgrade"
 				{
-					"magazine_speedloader_webley"	"0"
+					"magazine_speedloader_webley"	"1"
 				}
 				"gear"
 				{
-					"commonwealth_light_kit"		"0"
-					"commonwealth_heavy_kit"		"0"
+					"commonwealth_light_kit"		"2"
+					"commonwealth_heavy_kit"		"5"
 				}
 			}
 			
@@ -2148,21 +2140,22 @@
 				"weapon"				"weapon_flamethrower_german"
 				"weapon"				"weapon_p38"
 				"weapon"				"weapon_c96"
+				"weapon"				"weapon_stielhandgranate"
 				"gear"					"gear_fuel_tank_german"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_flamethrower_german" 	"0"
-					"weapon_p38" 					"0"
-					"weapon_c96" 					"0"
+					"weapon_flamethrower_german" 	"6"
+					"weapon_p38" 					"3"
+					"weapon_c96" 					"4"
 				}
 				
 				"gear"
 				{
-					"german_light_kit"		"0"
-					"german_heavy_kit"		"0"
+					"german_light_kit"		"2"
+					"german_heavy_kit"		"5"
 				}
 			}
 			
@@ -2201,28 +2194,32 @@
 			{
 				"weapon"				"weapon_k98bayonet"
 				"weapon"				"weapon_luger"
+				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_binoculars_german"
 			}
 			"allowed_items"
 			{
 				"weapon"				"weapon_luger"
 				"weapon"				"weapon_c96"
+				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_binoculars_german"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_luger"					"0"
-					"weapon_c96"					"0"
+					"weapon_luger"					"3"
+					"weapon_c96"					"4"
 				}
 
 				"gear"
 				{
-					"german_light_kit"	"0"
-					"german_heavy_kit"	"0"
+					"german_light_kit"	"2"
+					"german_heavy_kit"	"5"
 				}
 			}
 		}
 	}
 }
+
+"#base"	"webcoop_coop_classes.theater"

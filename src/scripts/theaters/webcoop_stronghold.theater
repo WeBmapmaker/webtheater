@@ -1,4 +1,4 @@
-"#base" "webcoop_default.theater"
+"#base" "webcoop.theater"
 
 "theater"
 {
@@ -12,7 +12,7 @@
 				"weapon"				"weapon_m1carbine"
 				"weapon"				"weapon_m3greasegun"
 				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_sw1917"
+				"weapon"				"weapon_sw1917"				
 				"weapon"				"weapon_mk2"
 				"weapon"				"weapon_binoculars_american"		
 				"weapon_upgrade"		"magazine_stripper_clips"
@@ -119,7 +119,7 @@
 				{
 					"#squad_german"
 					{
-						"size"									"20"
+						"size"									"32"
 						"ai_squad"								"0"
 						"human_squad"							"1"
 				
@@ -129,7 +129,7 @@
 							"template_german_communications"	"1"
 							"template_german_rifleman"			"-1"
 							"template_german_assault"			"-1"
-							"template_german_support"			"2"
+							"template_german_support"			"3"
 							"template_german_flamethrower"		"1"
 							"template_german_engineer"			"2"
 							"template_german_machinegunner"		"1"
@@ -139,7 +139,7 @@
 					
 					"#squad_german"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 				
@@ -147,10 +147,10 @@
 						{
 							"template_german_officer"			"1"
 							"template_german_rifleman_coop"		"-1"
-							"template_german_assault"			"-1"
+							"template_german_assault"			"2"
 							"template_german_support_coop"		"1"
 							"template_german_flamethrower"		"1"
-							"template_german_communications"	"1"
+							"template_german_communications"	"2"
 							"template_german_engineer"			"1"
 							"template_german_engineer_coop"		"1"
 							"template_german_machinegunner_coop"		"2"
@@ -166,7 +166,7 @@
 				{
 					"#squad_german"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -175,9 +175,9 @@
 							"template_german_officer"			"1"
 							"template_german_rifleman_coop"		"-1"
 							"template_german_assault"			"-1"
-							"template_german_support_coop"		"1"
+							"template_german_support_coop"		"2"
 							"template_german_flamethrower"		"1"
-							"template_german_communications"	"1"
+							"template_german_communications"	"2"
 							"template_german_engineer"			"1"
 							"template_german_engineer_coop"		"1"
 							"template_german_machinegunner_coop""2"
@@ -189,7 +189,7 @@
 					
 					"#squad_german"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -198,9 +198,9 @@
 							"template_german_officer"			"1"
 							"template_german_rifleman_coop"		"-1"
 							"template_german_assault"			"-1"
-							"template_german_support_coop"		"1"
+							"template_german_support_coop"		"2"
 							"template_german_flamethrower"		"1"
-							"template_german_communications"	"1"
+							"template_german_communications"	"2"
 							"template_german_engineer"			"1"
 							"template_german_engineer_coop"		"1"
 							"template_german_machinegunner_coop""2"
@@ -221,7 +221,7 @@
 				{
 					"#squad_american"
 					{
-						"size"									"20"
+						"size"									"32"
 						"ai_squad"								"0"
 						"human_squad"							"1"
 					
@@ -231,7 +231,7 @@
 							"template_american_communications"	"1"
 							"template_american_rifleman"		"-1"
 							"template_american_assault"			"-1"
-							"template_american_support"			"2"
+							"template_american_support"			"3"
 							"template_american_flamethrower"	"1"
 							"template_american_engineer"		"2"
 							"template_american_machinegunner"	"1"
@@ -241,7 +241,7 @@
 					
 					"#squad_american"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -249,10 +249,10 @@
 						{
 							"template_american_officer"			"1"
 							"template_american_rifleman"		"-1"
-							"template_american_assault"			"-1"
+							"template_american_assault"			"2"
 							"template_american_support"			"1"
 							"template_american_flamethrower"	"1"
-							"template_american_communications"	"1"
+							"template_american_communications"	"2"
 							"template_american_engineer_coop"	"1"
 							"template_american_engineer"		"1"
 							"template_american_machinegunner_coop"	"2"
@@ -268,7 +268,7 @@
 				{
 					"#squad_american"
 					{
-						"size"									"20"
+						"size"									"32"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -277,9 +277,9 @@
 							"template_american_officer"			"1"
 							"template_american_rifleman"		"-1"
 							"template_american_assault"			"-1"
-							"template_american_support"			"1"
+							"template_american_support"			"2"
 							"template_american_flamethrower"	"1"
-							"template_american_communications"	"1"
+							"template_american_communications"	"2"
 							"template_american_engineer_coop"	"1"
 							"template_american_engineer"		"1"
 							"template_american_machinegunner_coop"	"2"
@@ -291,7 +291,7 @@
 					
 					"#squad_american"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -299,10 +299,10 @@
 						{
 							"template_american_officer"			"1"
 							"template_american_rifleman"		"-1"
-							"template_american_assault"			"-1"
+							"template_american_assault"			"2"
 							"template_american_support"			"1"
 							"template_american_flamethrower"	"1"
-							"template_american_communications"	"1"
+							"template_american_communications"	"2"
 							"template_american_engineer_coop"	"2"
 							"template_american_engineer"		"1"
 							"template_american_machinegunner_coop"	"2"
@@ -323,7 +323,7 @@
 				{
 					"#squad_commonwealth"
 					{
-						"size"									"20"
+						"size"									"32"
 						"ai_squad"								"0"
 						"human_squad"							"1"
 					
@@ -333,7 +333,7 @@
 							"template_british_communications"	"1"
 							"template_british_rifleman"			"-1"
 							"template_british_assault"			"-1"
-							"template_british_support"			"2"
+							"template_british_support"			"3"
 							"template_british_flamethrower"		"1"
 							"template_british_engineer"			"2"
 							"template_british_machinegunner"	"1"
@@ -343,7 +343,7 @@
 
 					"#squad_commonwealth"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -351,10 +351,10 @@
 						{
 							"template_british_officer"			"1"
 							"template_british_rifleman"			"-1"
-							"template_british_assault"			"-1"
+							"template_british_assault"			"2"
 							"template_british_support"			"1"
 							"template_british_flamethrower"		"1"
-							"template_british_communications"	"1"
+							"template_british_communications"	"2"
 							"template_british_engineer_coop"	"1"
 							"template_british_engineer"			"1"
 							"template_british_machinegunner_coop"	"2"
@@ -370,7 +370,7 @@
 				{
 					"#squad_commonwealth"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -379,9 +379,9 @@
 							"template_british_officer"			"1"
 							"template_british_rifleman"			"-1"
 							"template_british_assault"			"-1"
-							"template_british_support"			"1"
+							"template_british_support"			"2"
 							"template_british_flamethrower"		"1"
-							"template_british_communications"	"1"
+							"template_british_communications"	"2"
 							"template_british_engineer_coop"	"1"
 							"template_british_engineer"			"1"
 							"template_british_machinegunner_coop"	"2"
@@ -393,7 +393,7 @@
 
 					"#squad_commonwealth"
 					{
-						"size"									"20"
+						"size"									"16"
 						"ai_squad"								"1"
 						"human_squad"							"0"
 					
@@ -402,9 +402,9 @@
 							"template_british_officer"			"1"
 							"template_british_rifleman"			"-1"
 							"template_british_assault"			"-1"
-							"template_british_support"			"1"
+							"template_british_support"			"2"
 							"template_british_flamethrower"		"1"
-							"template_british_communications"	"1"
+							"template_british_communications"	"2"
 							"template_british_engineer_coop"	"1"
 							"template_british_engineer"			"1"
 							"template_british_machinegunner_coop"	"2"
