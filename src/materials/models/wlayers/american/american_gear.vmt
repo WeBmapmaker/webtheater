@@ -1,0 +1,16 @@
+patch
+{
+	include "materials\models\player\shared_player_gear.vmt"
+	insert
+	{
+		"$basetexture"				"models\wlayer\american\american_gear"
+		"$bumpmap" 					"models\player\american\american_gear_normal"
+		"$phongexponenttexture"		"models\player\american\american_gear_exp"
+		"$roughnessmultiplier"		"0.9"
+		$metal 1
+		"$fuzz"						"1"
+		"$fuzzmultiplier"			"0.15"
+		"$alphatest"				"1"
+		
+	}
+}
