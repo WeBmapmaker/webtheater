@@ -134,6 +134,7 @@
 							"template_german_engineer"			"2"
 							"template_german_machinegunner"		"1"
 							"template_german_sniper"			"1"
+							"template_german_medic"				"1"
 						}
 					}
 					
@@ -236,6 +237,7 @@
 							"template_american_engineer"		"2"
 							"template_american_machinegunner"	"1"
 							"template_american_sniper"			"1"	
+							"template_american_medic"			"1"
 						}
 					}
 					
@@ -337,7 +339,8 @@
 							"template_british_flamethrower"		"1"
 							"template_british_engineer"			"2"
 							"template_british_machinegunner"	"1"
-							"template_british_sniper"			"1"						
+							"template_british_sniper"			"1"	
+							"template_british_medic"			"1"
 						}
 					}
 

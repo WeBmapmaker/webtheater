@@ -121,7 +121,7 @@
 			"health"				"500"
 			
 			"quantity"				"3"
-			"uses"					"1"
+			"uses"					"3"
 			
 			"cycling"
 			{
@@ -180,65 +180,6 @@
 
 			}
 		}
-		
-		"firesupport_stuka"
-		{
-			"printname"				"Stuka"
-			"print_description" 	"This doesn't actually work properly"
-			"icon"					"gameui/icon_info_off"
-			
-			"quantity"				"-1"
-			"uses"					"-1"
-			
-			"cycling"
-			{
-				"sound"				"Stuka.BombDoors"
-			}
-			
-			"planning"
-			{
-				
-			}
-			
-			"actions"
-			{
-				"command"			"InsRadial request_firesupport firesupport_stuka"
-			}
-			
-			"interactions"
-			{
-				
-			}
-		}
-		
-		"firesupport_strafe"
-		{
-			"printname"				"Strafe"
-			"print_description" 	"Air support is overrated"
-			"icon"					"gameui/icon_info_off"
-			
-			"quantity"				"-1"
-			"uses"					"-1"
-			
-			"cycling"
-			{
-				"sound"				"Mustang.GunImpacts"
-			}
-			
-			"planning"
-			{
-				
-			}
-			
-			"actions"
-			{
-				"command"			"InsRadial request_firesupport firesupport_strafe"
-			}
-			
-			"interactions"
-			{
-				
-			}
-		}
+	
 	}
 }

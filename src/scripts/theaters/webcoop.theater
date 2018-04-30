@@ -1,10 +1,13 @@
+// DEFAULT
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
+"#base" "default_weapon_upgrades.theater"
+"#base"	"default_firesupport.theater"
+
+// CUSTOM
 "#base" "webcoop_weapon_american.theater"
 "#base" "webcoop_weapon_german.theater"
 "#base" "webcoop_weapon_commonwealth.theater"
-"#base" "default_weapon_upgrades.theater"
-"#base"	"default_firesupport.theater"
 "#base"	"webcoop_plantables.theater"
 "#base"	"webcoop_unlocks_americans.theater"
 "#base"	"webcoop_unlocks_axis.theater"
@@ -198,7 +201,6 @@
 				"weapon_upgrade"		"magazine_clips_sw1917"
 				"weapon_upgrade"		"barrel_greased_bolt"
 
-				"plantable"				"healthpack"
 			}
 			"cost_modifiers"
 			{
@@ -276,7 +278,6 @@
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_stripper_clips"
 
-				"plantable"				"healthpack"
 			}
 			"cost_modifiers"
 			{
@@ -354,7 +355,6 @@
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_stripper_clips"
 
-				"plantable"				"healthpack"
 			}
 			"cost_modifiers"
 			{
@@ -2223,3 +2223,4 @@
 }
 
 "#base"	"webcoop_coop_classes.theater"
+"#base"	"webcoop_medic_classes.theater"
