@@ -264,6 +264,8 @@
 
 			"team_access"	"commonwealth"
 			
+			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"scottish"
@@ -351,6 +353,8 @@
 			"printname"		"#unit_commonwealth_12thfrontier"
 			"print_description" "#unit_commonwealth_12thfrontier_desc"
 			"team_access"	"commonwealth"
+			
+			"default"		"1"
 			
 			"Character"
 			{
@@ -449,6 +453,8 @@
 			"print_description" "#unit_commonwealth_argyll_desc"
 			"team_access"	"commonwealth"
 			
+			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"canadian"
@@ -533,6 +539,8 @@
 			"print_description" "#unit_commonwealth_seaforth_desc"
 			"team_access"	"commonwealth"
 			
+			"default"		"1"
+			
 			"Character"
 			{
 				"voice"				"canadian"
@@ -615,6 +623,8 @@
 			"printname"					"#unit_commonwealth_princess_patricia"
 			"print_description" 		"#unit_commonwealth_princess_patricia_desc"
 			"team_access"				"commonwealth"
+			
+			"default"		"1"
 				
 			"Character"
 			{
@@ -705,6 +715,8 @@
 			"print_description" "#unit_commonwealth_royal_hamilton_desc"
 			"team_access"		"commonwealth"
 			
+			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"canadian"
@@ -789,6 +801,8 @@
 			"print_description" "#unit_commonwealth_loyal_edmonton_desc"
 			"team_access"		"commonwealth"
 			
+			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"canadian"
@@ -872,7 +886,9 @@
 			"printname"				"#unit_commonwealth_no2commando"
 			"print_description" 	"#unit_commonwealth_norcommando_desc"
 
-			"team_access"	"commonwealth"	
+			"team_access"	"commonwealth"
+			
+			"default"		"1"	
 				
 			"Character"
 			{
@@ -955,6 +971,8 @@
 			"print_description" 	"#unit_commonwealth_grenadier_desc"
 
 			"team_access"	"commonwealth"
+			
+			"default"		"1"	
 			
 			"Character"
 			{
@@ -1039,6 +1057,8 @@
 
 			"team_access"	"commonwealth"
 			
+			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"english"
@@ -1120,6 +1140,8 @@
 			"print_description" "#unit_commonwealth_17thaustralian_desc"
 			"team_access"		"commonwealth"
 			
+			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"australian"
@@ -1200,6 +1222,8 @@
 			"printname"			"#unit_commonwealth_blackwatch"
 			"print_description" "#unit_commonwealth_blackwatch_desc"
 			"team_access"		"commonwealth"
+			
+			"default"		"1"
 			
 			"Character"
 			{
