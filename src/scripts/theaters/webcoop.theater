@@ -1,3 +1,4 @@
+// DEFAULT
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
 "#base" "default_weapon_american.theater"
@@ -9,7 +10,11 @@
 "#base"	"default_unlocks_axis.theater"
 "#base"	"default_unlocks_commonwealth.theater"
 "#base"	"default_unlocks_weapons.theater"
-"#base"	"webcoop_default_coop_classes.theater"
+
+// CUSTOM
+"#base"	"webcoop_coop_classes.theater"
+"#base"	"webcoop_plantables.theater"
+"#base"	"webcoop_offensive.theater"
 
 
 "theater"
@@ -2226,3 +2231,6 @@
 		}
 	}
 }
+
+// MEDIC CLASSES
+"#base"	"webcoop_medic_classes.theater"

@@ -1,0 +1,181 @@
+"theater"
+{	
+	"player_templates"
+	{
+		"template_american_medic"
+		{
+			"print_name"				"American medic"
+			"print_attribute"			"+ Health pouch"
+			"print_description"			"Regenerates health of your teammates with health pouch"
+			"response_rules_key"		"american01"
+			"icon"						"communications"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_03.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_m1911"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"barrel_greased_bolt"
+				"gear"					"american_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1carbine"	
+				"weapon"				"weapon_m1911"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"barrel_greased_bolt"
+				
+				"plantable"				"plantable_health"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m1carbine"				"0"
+					"weapon_m1911"					"0"
+				}
+				
+				"weapon_upgrade"
+				{
+					"barrel_greased_bolt"			"0"
+					"default_sling"					"0"
+				}
+
+				"gear"
+				{
+					"american_light_kit"	"0"
+					"american_heavy_kit"	"0"
+				}
+			}
+		}
+
+		"template_british_medic"
+		{
+			"print_name"				"British medic"
+			"print_attribute"			"+ Health pouch"
+			"print_description"			"Regenerates health of your teammates with health pouch"
+			"response_rules_key"		"english"
+			"icon"						"communications"
+			
+			"models"
+			{
+				"player"				"models/characters/british/player_british_07.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_enfield_bayonet"
+				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_browninghp"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"barrel_greased_bolt"
+				"gear"					"commonwealth_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_browninghp"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"barrel_greased_bolt"
+				"weapon_upgrade"		"default_bayonet"
+				
+				"plantable"				"plantable_health"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield" 			"0"
+					"weapon_browninghp" 		"0"
+				}
+
+				"weapon_upgrade"
+				{
+					"default_sling"					"0"
+					"default_bayonet"				"0"
+					"barrel_greased_bolt"			"0"
+				}
+				
+				"gear"
+				{
+					"commonwealth_light_kit"	"0"
+					"commonwealth_heavy_kit"	"0"
+				}
+			}
+		}
+
+		"template_german_medic"
+		{
+			"print_name"				"German medic"
+			"print_attribute"			"+ Health pouch"
+			"print_description"			"Regenerates health of your teammates with health pouch"
+			"response_rules_key"	"german01"
+			"icon"					"communications"
+			
+			"models"
+			{
+				"player"				"models/characters/german/player_german_06.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}	
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_g43"
+				"weapon"				"weapon_ppk"
+				"weapon_upgrade"		"default_sling"
+				"gear"					"german_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_g43"
+				"weapon"				"weapon_ppk"
+				"weapon_upgrade"		"default_sling"
+				
+				"plantable"				"plantable_health"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_g43"					"0"
+					"weapon_ppk"					"0"
+				}
+				
+				"weapon_upgrade"
+				{
+					"default_sling"					"0"
+				}
+
+				"gear"
+				{
+					"german_light_kit"	"0"
+					"german_heavy_kit"	"0"
+				}
+			}
+		}
+		
+	}
+}
