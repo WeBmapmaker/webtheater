@@ -153,7 +153,7 @@
 			"print_description" 	"Placeable defensive crate"
 			"icon"					"hud_doi/plantable_ammopouch"
 			
-			"health"				"5000"
+			"health"				"350"
 			
 			"quantity"				"2"
 			"uses"					"-1"

@@ -2,7 +2,6 @@
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
 "#base" "default_weapon_upgrades.theater"
-"#base"	"default_firesupport.theater"
 
 // CUSTOM
 "#base" "webcoop_weapon_american.theater"
