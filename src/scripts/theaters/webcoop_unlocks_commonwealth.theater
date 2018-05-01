@@ -57,17 +57,11 @@
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
 					}
-									
+					
 					"template_british_flamethrower"
 					{
 						"model"			"models/characters/british/player_british_06.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
-					}
-					
-					"template_british_communications"
-					{
-						"model"			"models/characters/british/player_british_02.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_02.mdl"	
 					}
 					
 					"template_british_machinegunner"
@@ -80,6 +74,17 @@
 					{
 						"model"			"models/characters/british/player_british_01.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_01.mdl"	
+					}
+					
+					"template_british_medic"
+					{
+						"model"			"models/characters/british/player_british_02.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
 					}
 				}
 			}
@@ -150,10 +155,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"						
 					}
 					
 					"template_british_machinegunner"
@@ -235,10 +241,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"	
 					}
 					
 					"template_british_machinegunner"
@@ -326,10 +333,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_08.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_08.mdl"	
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -419,12 +427,12 @@
 						"helmet"		"models/characters/british/british_helmet.mdl"		
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/units/player_indian_02.mdl"
 						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"	
 				
-						"helmet"		"models/characters/british/british_helmet.mdl"		
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -511,10 +519,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -596,10 +605,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -688,10 +698,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -773,10 +784,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
-						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -859,10 +871,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -943,10 +956,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_02.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_02.mdl"	
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1028,10 +1042,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_02.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_02.mdl"	
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1113,10 +1128,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_02.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_02.mdl"	
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1196,10 +1212,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_06.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1281,10 +1298,11 @@
 						"model_cold"	"models/characters/british/player_british_alt_01.mdl"	
 					}
 					
-					"template_british_communications"
+					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_04.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_04.mdl"	
+						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"

@@ -54,15 +54,10 @@
 					{
 						"model"			"models/characters/american/player_american_09.mdl"
 					}
-									
+					
 					"template_american_flamethrower"
 					{
 						"model"			"models/characters/american/player_american_08.mdl"
-					}
-					
-					"template_american_communications"
-					{
-						"model"			"models/characters/american/player_american_02.mdl"
 					}
 					
 					"template_american_machinegunner"
@@ -73,6 +68,12 @@
 					"template_american_sniper"
 					{
 						"model"			"models/characters/american/player_american_03.mdl"
+					}
+					
+					"template_american_medic"
+					{
+						"model"			"models/characters/american/player_american_02.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 				}
 			}
@@ -134,9 +135,10 @@
 						"model"			"models/characters/american/player_american_06.mdl"
 					}
 					
-					"template_american_communications"
+					"template_american_medic"
 					{
 						"model"			"models/characters/american/player_american_08.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 					
 					"template_american_machinegunner"
@@ -239,26 +241,14 @@
 						"model"			"models/characters/american/player_american_airborne_06.mdl"
 					}
 					
-					"template_american_communications"
+					"template_american_medic"
 					{
 						"model"			"models/characters/american/player_american_airborne_02.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 						
 						"bodygroups"
 						{
 							"pouches"	"1"
-						}
-
-						"?has_m1para_access"
-						{
-							"buy_order"
-							{
-								"weapon"				"weapon_garand_bayonet"
-								"weapon"				"weapon_m1paratrooper"
-								"weapon"				"weapon_m1911"
-								"weapon"				"weapon_smoke"
-								"gear"					"american_light_kit"
-								"gear"					"gear_radio"
-							}
 						}
 					}
 					
@@ -348,9 +338,10 @@
 						"model"			"models/characters/american/player_american_07.mdl"
 					}
 					
-					"template_american_communications"
+					"template_american_medic"
 					{
 						"model"			"models/characters/american/player_american_09.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 					
 					"template_american_machinegunner"
@@ -422,9 +413,10 @@
 						"model"			"models/characters/american/player_american_07.mdl"
 					}
 					
-					"template_american_communications"
+					"template_american_medic"
 					{
 						"model"			"models/characters/american/player_american_09.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 					
 					"template_american_machinegunner"
@@ -470,6 +462,11 @@
 					"template_american_officer"
 					{
 						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_medic"
+					{
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 				}
 			}
@@ -536,9 +533,10 @@
 						"model"			"models/characters/american/player_american_09.mdl"
 					}
 					
-					"template_american_communications"
+					"template_american_medic"
 					{
 						"model"			"models/characters/american/player_american_03.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 					
 					"template_american_machinegunner"
@@ -616,9 +614,10 @@
 						"model"			"models/characters/american/player_american_08.mdl"
 					}
 					
-					"template_american_communications"
+					"template_american_medic"
 					{
 						"model"			"models/characters/american/player_american_02.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 					
 					"template_american_machinegunner"
@@ -694,9 +693,10 @@
 						"model"			"models/characters/american/player_american_08.mdl"
 					}
 					
-					"template_american_communications"
+					"template_american_medic"
 					{
 						"model"			"models/characters/american/player_american_02.mdl"
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
 					}
 					
 					"template_american_machinegunner"
@@ -735,6 +735,14 @@
 				{
 					"helmet"	"0"
 					"patch"		"2"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_medic"
+					{
+						"helmet"		"models/webcoop/characters/american/american_medic_helmet.mdl"
+					}
 				}
 			}
 		}

@@ -82,20 +82,10 @@
 							"pouches"	"1"
 						}
 					}
-									
+					
 					"template_german_flamethrower"
 					{
 						"model"			"models/characters/german/player_german_09.mdl"
-					}
-					
-					"template_german_communications"
-					{
-						"model"			"models/characters/german/player_german_06.mdl"
-						
-						"bodygroups"
-						{
-							"pouches"	"1"
-						}
 					}
 					
 					"template_german_machinegunner"
@@ -111,6 +101,17 @@
 					"template_german_sniper"
 					{
 						"model"			"models/characters/german/player_german_08.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+					
+					"template_german_medic"
+					{
+						"model"			"models/characters/german/player_german_06.mdl"
+						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 						
 						"bodygroups"
 						{
@@ -207,9 +208,10 @@
 						"model"			"models/characters/german/player_german_05.mdl"
 					}
 					
-					"template_german_communications"
+					"template_german_medic"
 					{
 						"model"			"models/characters/german/player_german_06.mdl"
+						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 						
 						"bodygroups"
 						{
@@ -309,9 +311,10 @@
 						"model"			"models/characters/german/player_german_paratrooper_05.mdl"
 					}
 					
-					"template_german_communications"
+					"template_german_medic"
 					{
 						"model"			"models/characters/german/player_german_paratrooper_09.mdl"
+						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 					}
 					
 					"template_german_machinegunner"
@@ -405,9 +408,10 @@
 						"model"			"models/characters/german/player_german_paratrooper_09.mdl"
 					}
 					
-					"template_german_communications"
+					"template_german_medic"
 					{
 						"model"			"models/characters/german/player_german_paratrooper_06.mdl"
+						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 					}
 					
 					"template_german_machinegunner"
@@ -520,9 +524,10 @@
 						"model"			"models/characters/german/units/player_german_panzer_09.mdl"
 					}
 					
-					"template_german_communications"
+					"template_german_medic"
 					{
 						"model"			"models/characters/german/units/player_german_panzer_06.mdl"
+						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 						
 						"bodygroups"
 						{
@@ -647,9 +652,10 @@
 						"model"			"models/characters/german/units/player_german_panzer_09.mdl"
 					}
 					
-					"template_german_communications"
+					"template_german_medic"
 					{
 						"model"			"models/characters/german/units/player_german_panzer_06.mdl"
+						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 						
 						"bodygroups"
 						{
@@ -772,9 +778,10 @@
 						"model"			"models/characters/german/player_german_05.mdl"
 					}
 					
-					"template_german_communications"
+					"template_german_medic"
 					{
 						"model"			"models/characters/german/player_german_06.mdl"
+						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 						
 						"bodygroups"
 						{
