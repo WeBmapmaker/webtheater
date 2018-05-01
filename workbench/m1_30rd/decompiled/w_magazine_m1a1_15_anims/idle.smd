@@ -1,0 +1,9 @@
+// Created by Crowbar 0.56
+version 1
+nodes
+  0 "W_MAGAZINE" -1
+end
+skeleton
+  time 0
+    0 -0.773438 -4.742188 1.092773 -0.020391 0.100309 -0.081044
+end
