@@ -13,6 +13,7 @@
 "#base"	"webcoop_unlocks_axis.theater"
 "#base"	"webcoop_unlocks_commonwealth.theater"
 "#base"	"webcoop_unlocks_weapons.theater"
+"#base"	"webcoop_firesupport.theater"
 
 "theater"
 {
