@@ -1,4 +1,5 @@
 "#base" "webcoop.theater"
+"#base" "webcoop_medic_classes.theater"
 
 "theater"
 {
@@ -126,7 +127,7 @@
 						"classes"
 						{
 							"template_german_officer"			"1"
-							"template_german_communications"	"1"
+							"template_german_medic"				"2"
 							"template_german_rifleman"			"-1"
 							"template_german_assault"			"-1"
 							"template_german_support"			"3"
@@ -134,7 +135,6 @@
 							"template_german_engineer"			"2"
 							"template_german_machinegunner"		"1"
 							"template_german_sniper"			"1"
-							"template_german_medic"				"1"
 						}
 					}
 					
@@ -229,7 +229,7 @@
 						"classes"
 						{
 							"template_american_officer"			"1"
-							"template_american_communications"	"1"
+							"template_american_medic"			"2"
 							"template_american_rifleman"		"-1"
 							"template_american_assault"			"-1"
 							"template_american_support"			"3"
@@ -237,7 +237,6 @@
 							"template_american_engineer"		"2"
 							"template_american_machinegunner"	"1"
 							"template_american_sniper"			"1"	
-							"template_american_medic"			"1"
 						}
 					}
 					
@@ -332,7 +331,7 @@
 						"classes"
 						{
 							"template_british_officer"			"1"
-							"template_british_communications"	"1"
+							"template_british_medic"			"2"
 							"template_british_rifleman"			"-1"
 							"template_british_assault"			"-1"
 							"template_british_support"			"3"
@@ -340,7 +339,6 @@
 							"template_british_engineer"			"2"
 							"template_british_machinegunner"	"1"
 							"template_british_sniper"			"1"	
-							"template_british_medic"			"1"
 						}
 					}
 
