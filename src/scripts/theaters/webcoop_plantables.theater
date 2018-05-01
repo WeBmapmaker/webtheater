@@ -51,7 +51,7 @@
 			"health"				"500"
 			
 			"quantity"				"3"
-			"uses"					"1"
+			"uses"					"5"
 			
 			"cycling"
 			{
@@ -72,7 +72,7 @@
 			
 			"interactions"
 			{
-				"give"				"ammo 50"
+				"give"				"ammo 10"
 				"sound"				"Deployable_AmmoPouch.Use"
 			}
 		}
@@ -86,7 +86,7 @@
 			"health"				"500"
 			
 			"quantity"				"3"
-			"uses"					"1"
+			"uses"					"5"
 			
 			"cycling"
 			{
@@ -107,7 +107,7 @@
 			
 			"interactions"
 			{
-				"give"				"ammo 50"
+				"give"				"ammo 10"
 				"sound"				"Deployable_AmmoPouch.Use"
 			}
 		}
