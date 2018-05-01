@@ -124,7 +124,7 @@
 
 		"template_german_medic"
 		{
-			"print_name"				"Mediziner"
+			"print_name"				"Sanitäter"
 			"print_attribute"			"+ Health pouch"
 			"print_description"			"Regenerates health of your teammates with health pouch"
 			"response_rules_key"	"german01"
