@@ -72,7 +72,7 @@
 			
 			"interactions"
 			{
-				"give"				"ammo 10"
+				"give"				"ammo 50"
 				"sound"				"Deployable_AmmoPouch.Use"
 			}
 		}
@@ -107,7 +107,7 @@
 			
 			"interactions"
 			{
-				"give"				"ammo 10"
+				"give"				"ammo 50"
 				"sound"				"Deployable_AmmoPouch.Use"
 			}
 		}
