@@ -116,7 +116,7 @@
 		{
 			"printname"				"Medical bag"
 			"print_description" 	"Placeable medical bag"
-			"icon"					"hud_doi/plantable_ammopouch"
+			"icon"					"hud_doi/plantable_healthpack"
 			
 			"health"				"500"
 			
@@ -151,7 +151,7 @@
 		{
 			"printname"				"Crates"
 			"print_description" 	"Placeable defensive crate"
-			"icon"					"hud_doi/plantable_ammopouch"
+			"icon"					"hud_doi/plantable_crate"
 			
 			"health"				"350"
 			
