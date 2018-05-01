@@ -1,7 +1,6 @@
 // DEFAULT
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
-"#base" "default_weapon_upgrades.theater"
 
 // CUSTOM
 "#base" "webcoop_weapon_american.theater"
@@ -13,6 +12,7 @@
 "#base"	"webcoop_unlocks_commonwealth.theater"
 "#base"	"webcoop_unlocks_weapons.theater"
 "#base"	"webcoop_firesupport.theater"
+"#base"	"webcoop_weapon_upgrades.theater"
 
 "theater"
 {
@@ -915,13 +915,14 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_garand_bayonet"
-				"weapon"				"weapon_bar"
+				"weapon"				"weapon_m2carbine"
 				"weapon"				"weapon_mk2"
 				"gear"					"american_heavy_kit"
 			}
 			"allowed_items"
 			{
 				"weapon"				"weapon_bar"
+				"weapon"				"weapon_m2carbine"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_mk2"
 				"weapon"				"weapon_binoculars_american"
@@ -936,6 +937,7 @@
 				"weapon"
 				{
 					"weapon_bar" 					"5"
+					"weapon_m2carbine"				"5"
 					"weapon_m1911" 					"4"
 					"weapon_mk2" 					"3"
 					"weapon_binoculars_american" 	"1"
