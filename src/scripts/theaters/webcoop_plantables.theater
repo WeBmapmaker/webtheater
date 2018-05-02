@@ -181,8 +181,6 @@
 			}
 		}
 		
-		// UNDER CONSTRUCTION
-		
 		"bush_placeable"
 		{
 			"printname"				"Bush"
@@ -217,6 +215,8 @@
 			}
 		}
 		
+		// UNDER CONSTRUCTION
+		
 		"sandbag_placeable"
 		{
 			"printname"				"Sandbag"
@@ -235,14 +235,12 @@
 			
 			"planning"
 			{
-				"model"				"models/props_crates/static_crate_48.mdl"
-				//"model"			"models/webcoop/plantable/plantable_sandbag.mdl"
 				"solid_to_players"	"1"
 			}
 			
 			"actions"
 			{
-				"plant"				"sandbag_placeable"
+				"plant"				"models/fortifications/prop_sandbags_a.mdl"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			

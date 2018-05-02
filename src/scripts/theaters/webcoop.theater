@@ -1564,6 +1564,7 @@
 				"weapon_upgrade"		"barrel_greased_bolt"	
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"magazine_bazooka_wp"
+				
 			}
 			"cost_modifiers"
 			{
