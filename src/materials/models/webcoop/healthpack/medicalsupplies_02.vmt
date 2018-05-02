@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\webcoop\healthpack\medicalsupplies_02"
+	"$bumpmap" 				"models\static_props\medicalsupplies_02_norm"
+}
+
+
