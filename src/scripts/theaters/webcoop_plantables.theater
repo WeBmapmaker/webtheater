@@ -130,7 +130,7 @@
 			
 			"planning"
 			{
-				"model"				"models/static_fittings/prop_medical_bag_a.mdl"
+				"model"				"models/webcoop/healthpack/healthpack_01.mdl"
 				"solid_to_players"	"0"
 			}
 			
@@ -172,6 +172,77 @@
 			"actions"
 			{
 				"plant"				"crate_placeable"
+				"sound"				"Deployable_AmmoPouch.Plant"
+			}
+			
+			"interactions"
+			{
+
+			}
+		}
+		
+		// UNDER CONSTRUCTION
+		
+		"bush_placeable"
+		{
+			"printname"				"Bush"
+			"print_description" 	"Placeable bush for sniper"
+			"icon"					"hud_doi/plantable_bush"
+			
+			"health"				"350"
+			
+			"quantity"				"2"
+			"uses"					"-1"
+			
+			"cycling"
+			{
+				"sound"				"Deployable.CycleInventory"
+			}
+			
+			"planning"
+			{
+				"model"			"models/webcoop/plantable/plantable_bush.mdl"
+				"solid_to_players"	"0"
+			}
+			
+			"actions"
+			{
+				"plant"				"bush_placeable"
+				"sound"				"Deployable_AmmoPouch.Plant"
+			}
+			
+			"interactions"
+			{
+
+			}
+		}
+		
+		"sandbag_placeable"
+		{
+			"printname"				"Sandbag"
+			"print_description" 	"Placeable defensive sandbag"
+			"icon"					"hud_doi/plantable_sandbag"
+			
+			"health"				"350"
+			
+			"quantity"				"2"
+			"uses"					"-1"
+			
+			"cycling"
+			{
+				"sound"				"Deployable.CycleInventory"
+			}
+			
+			"planning"
+			{
+				"model"				"models/props_crates/static_crate_48.mdl"
+				//"model"			"models/webcoop/plantable/plantable_sandbag.mdl"
+				"solid_to_players"	"1"
+			}
+			
+			"actions"
+			{
+				"plant"				"sandbag_placeable"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			

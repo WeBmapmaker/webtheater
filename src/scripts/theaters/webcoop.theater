@@ -1325,6 +1325,8 @@
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_4x"
 				"weapon_upgrade"		"barrel_greased_bolt"
+				
+				"plantable"				"bush_placeable"
 			}
 			"cost_modifiers"
 			{
@@ -1400,7 +1402,9 @@
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_4x"
-				"weapon_upgrade"		"barrel_greased_bolt"	
+				"weapon_upgrade"		"barrel_greased_bolt"
+				
+				"plantable"				"bush_placeable"
 			}
 			"cost_modifiers"
 			{
@@ -1476,6 +1480,8 @@
 				"weapon_upgrade"		"optic_scope_4x"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"barrel_greased_bolt"
+				
+				"plantable"				"bush_placeable"
 			}
 			"cost_modifiers"
 			{
