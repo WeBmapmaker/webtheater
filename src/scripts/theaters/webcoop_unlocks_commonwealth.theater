@@ -79,7 +79,6 @@
 					"template_british_medic"
 					{
 						"model"			"models/characters/british/player_british_02.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 						
 						"bodygroups"
 						{
@@ -157,9 +156,9 @@
 					
 					"template_british_medic"
 					{
+							
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"						
 					}
 					
 					"template_british_machinegunner"
@@ -243,9 +242,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"	
 					}
 					
 					"template_british_machinegunner"
@@ -335,9 +334,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_08.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -429,10 +428,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/units/player_indian_02.mdl"
 						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"	
-				
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -521,9 +519,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -607,9 +605,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -700,9 +698,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -786,9 +784,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -873,9 +871,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -958,9 +956,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_02.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_02.mdl"	
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1044,9 +1042,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_02.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_02.mdl"	
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1130,9 +1128,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_02.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_02.mdl"	
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1214,9 +1212,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_03.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_03.mdl"	
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
@@ -1300,9 +1298,9 @@
 					
 					"template_british_medic"
 					{
+						
 						"model"			"models/characters/british/player_british_04.mdl"
 						"model_cold"	"models/characters/british/player_british_alt_04.mdl"	
-						"helmet"		"models/webcoop/characters/british/british_medic_helmet.mdl"
 					}
 					
 					"template_british_machinegunner"
