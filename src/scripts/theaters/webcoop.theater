@@ -1317,6 +1317,7 @@
 			"allowed_items"
 			{
 				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_sw1917"				
 				"weapon"				"weapon_mk2"				
@@ -1554,6 +1555,7 @@
 			{
 				"weapon"				"weapon_springfield"
 				"weapon"				"weapon_m3greasegun"
+				"weapon"				"weapon_m1carbine"	
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_sw1917"				
 				"weapon"				"weapon_mk2"
@@ -1577,6 +1579,7 @@
 					"weapon_mk2"				"1"
 					"weapon_tnt"				"4"
 					"weapon_bazooka"			"5"
+					"weapon_m1carbine"			"4"
 				}
 				"weapon_upgrade"
 				{

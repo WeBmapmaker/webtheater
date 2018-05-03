@@ -189,7 +189,7 @@
 			
 			"health"				"350"
 			
-			"quantity"				"2"
+			"quantity"				"3"
 			"uses"					"-1"
 			
 			"cycling"
@@ -240,7 +240,7 @@
 			
 			"actions"
 			{
-				"plant"				"models/fortifications/prop_sandbags_a.mdl"
+				"plant"				"prop_dynamic model models/fortifications/prop_sandbags_a.mdl"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			

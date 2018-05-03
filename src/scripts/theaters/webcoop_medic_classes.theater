@@ -59,6 +59,13 @@
 					"american_heavy_kit"	"0"
 				}
 			}
+			"player_settings_mods"
+			{
+				"suppression"
+				{
+					"suppression_resistance"		"0.45"
+				}
+			}
 		}
 
 		"template_british_medic"
@@ -120,6 +127,13 @@
 					"commonwealth_heavy_kit"	"0"
 				}
 			}
+			"player_settings_mods"
+			{
+				"suppression"
+				{
+					"suppression_resistance"		"0.45"
+				}
+			}
 		}
 
 		"template_german_medic"
@@ -173,6 +187,13 @@
 				{
 					"german_light_kit"	"0"
 					"german_heavy_kit"	"0"
+				}
+			}
+			"player_settings_mods"
+			{
+				"suppression"
+				{
+					"suppression_resistance"		"0.45"
 				}
 			}
 		}
