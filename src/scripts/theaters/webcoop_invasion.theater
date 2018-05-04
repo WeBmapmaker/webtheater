@@ -6,7 +6,7 @@
 	{
 		"axis"
 		{
-			"?offensive_TEAM_TWO_attack"
+			"?invasion_TEAM_TWO_attack"
 			{			
 				"squads"
 				{
@@ -33,7 +33,7 @@
 							"template_german_rifleman"	"-1"
 							
 							"template_german_assault"	"-1"
-							
+
 							"template_german_support"
 							{
 								"min"			"1"
@@ -73,7 +73,7 @@
 				}
 			}
 			
-			"?offensive_TEAM_TWO_defend"
+			"?invasion_TEAM_TWO_defend"
 			{			
 				"squads"
 				{
@@ -143,7 +143,7 @@
 		
 		"americans"
 		{
-			"?offensive_TEAM_ONE_attack"
+			"?invasion_TEAM_ONE_attack"
 			{
 				"squads"
 				{
@@ -210,7 +210,7 @@
 				}
 			}
 			
-			"?offensive_TEAM_ONE_defend"
+			"?invasion_TEAM_ONE_defend"
 			{
 				"squads"
 				{
@@ -280,7 +280,7 @@
 		
 		"commonwealth"
 		{
-			"?offensive_TEAM_ONE_attack"
+			"?invasion_TEAM_ONE_attack"
 			{
 				"squads"
 				{
@@ -347,7 +347,7 @@
 				}
 			}
 			
-			"?offensive_TEAM_ONE_defend"
+			"?invasion_TEAM_ONE_defend"
 			{
 				"squads"
 				{
