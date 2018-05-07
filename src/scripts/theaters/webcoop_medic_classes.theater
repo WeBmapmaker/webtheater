@@ -157,6 +157,7 @@
 			
 			"buy_order"
 			{
+				"weapon"				"weapon_k98bayonet"
 				"weapon"				"weapon_g43"
 				"weapon"				"weapon_ppk"
 				"weapon_upgrade"		"default_sling"
