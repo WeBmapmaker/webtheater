@@ -17,7 +17,7 @@
 				"bodygroups"
 				{
 					"kit"					"0"
-					"backpack"				"0"
+					"backpack"				"1"
 				}
 			}
 			
@@ -28,14 +28,16 @@
 				"weapon"				"weapon_m1911"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"barrel_greased_bolt"
-				"gear"					"american_heavy_kit"
+				"gear"					"allied_medic_backpack"
 			}
+			"locked_gear_slots"			"vest, backpack"
 			"allowed_items"
 			{
 				"weapon"				"weapon_m1carbine"	
 				"weapon"				"weapon_m1911"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"barrel_greased_bolt"
+				"gear"					"allied_medic_backpack"
 				
 				"plantable"				"healthpack"
 			}
@@ -55,8 +57,7 @@
 
 				"gear"
 				{
-					"american_light_kit"	"0"
-					"american_heavy_kit"	"0"
+					"allied_medic_backpack"	"0"
 				}
 			}
 			"player_settings_mods"
@@ -83,7 +84,7 @@
 				"bodygroups"
 				{
 					"kit"					"0"
-					"backpack"				"0"
+					"backpack"				"1"
 				}
 			}
 			
@@ -94,8 +95,9 @@
 				"weapon"				"weapon_browninghp"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"barrel_greased_bolt"
-				"gear"					"commonwealth_heavy_kit"
+				"gear"					"allied_medic_backpack"
 			}
+			"locked_gear_slots"			"vest, backpack"
 			"allowed_items"
 			{
 				"weapon"				"weapon_enfield"
@@ -103,6 +105,7 @@
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_bayonet"
+				"gear"					"allied_medic_backpack"
 				
 				"plantable"				"healthpack"
 			}
@@ -123,8 +126,7 @@
 				
 				"gear"
 				{
-					"commonwealth_light_kit"	"0"
-					"commonwealth_heavy_kit"	"0"
+					"allied_medic_backpack"	"0"
 				}
 			}
 			"player_settings_mods"
@@ -151,7 +153,7 @@
 				"bodygroups"
 				{
 					"kit"					"0"
-					"backpack"				"0"
+					"backpack"				"1"
 				}	
 			}
 			
@@ -159,15 +161,18 @@
 			{
 				"weapon"				"weapon_k98bayonet"
 				"weapon"				"weapon_g43"
-				"weapon"				"weapon_ppk"
+				"weapon"				"weapon_luger"
 				"weapon_upgrade"		"default_sling"
-				"gear"					"german_heavy_kit"
+				"gear"					"axis_medic_backpack"
 			}
+			"locked_gear_slots"			"vest, backpack"
 			"allowed_items"
 			{
 				"weapon"				"weapon_g43"
+				"weapon"				"weapon_luger"
 				"weapon"				"weapon_ppk"
 				"weapon_upgrade"		"default_sling"
+				"gear"					"axis_medic_backpack"
 				
 				"plantable"				"healthpack"
 			}
@@ -175,6 +180,7 @@
 			{
 				"weapon"
 				{
+					"weapon_luger"					"0"
 					"weapon_g43"					"0"
 					"weapon_ppk"					"0"
 				}
@@ -186,8 +192,7 @@
 
 				"gear"
 				{
-					"german_light_kit"	"0"
-					"german_heavy_kit"	"0"
+					"axis_medic_backpack"	"0"
 				}
 			}
 			"player_settings_mods"

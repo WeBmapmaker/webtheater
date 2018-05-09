@@ -2248,4 +2248,5 @@
 }
 
 "#base"	"webcoop_medic_classes.theater"
+"#base"	"webcoop_medic_gear.theater"
 "#base"	"webcoop_coop_classes.theater"

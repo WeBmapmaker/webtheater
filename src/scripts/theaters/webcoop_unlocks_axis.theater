@@ -110,13 +110,8 @@
 					
 					"template_german_medic"
 					{
-						"model"			"models/characters/german/player_german_06.mdl"
+						"model"			"models/webcoop/characters/german/player_german_medic.mdl"
 						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
-						
-						"bodygroups"
-						{
-							"pouches"	"1"
-						}
 					}
 				}
 			}
@@ -210,13 +205,8 @@
 					
 					"template_german_medic"
 					{
-						"model"			"models/characters/german/player_german_06.mdl"
+						"model"			"models/webcoop/characters/german/player_german_medic.mdl"
 						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
-						
-						"bodygroups"
-						{
-							"pouches"	"1"
-						}
 					}
 					
 					"template_german_machinegunner"
@@ -313,7 +303,7 @@
 					
 					"template_german_medic"
 					{
-						"model"			"models/characters/german/player_german_paratrooper_09.mdl"
+						"model"			"models/webcoop/characters/german/player_german_medic.mdl"
 						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 					}
 					
@@ -410,7 +400,7 @@
 					
 					"template_german_medic"
 					{
-						"model"			"models/characters/german/player_german_paratrooper_06.mdl"
+						"model"			"models/webcoop/characters/german/player_german_medic.mdl"
 						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
 					}
 					
@@ -526,13 +516,8 @@
 					
 					"template_german_medic"
 					{
-						"model"			"models/characters/german/units/player_german_panzer_06.mdl"
+						"model"			"models/webcoop/characters/german/player_german_medic.mdl"
 						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
-						
-						"bodygroups"
-						{
-							"pouches"	"1"
-						}
 					}
 					
 					"template_german_machinegunner"
@@ -654,13 +639,8 @@
 					
 					"template_german_medic"
 					{
-						"model"			"models/characters/german/units/player_german_panzer_06.mdl"
+						"model"			"models/webcoop/characters/german/player_german_medic.mdl"
 						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
-						
-						"bodygroups"
-						{
-							"pouches"	"1"
-						}
 					}
 					
 					"template_german_machinegunner"
@@ -780,13 +760,8 @@
 					
 					"template_german_medic"
 					{
-						"model"			"models/characters/german/player_german_06.mdl"
+						"model"			"models/webcoop/characters/german/player_german_medic.mdl"
 						"helmet"		"models/webcoop/characters/german/german_medic_helmet.mdl"
-						
-						"bodygroups"
-						{
-							"pouches"	"1"
-						}
 					}
 					
 					"template_german_machinegunner"
