@@ -3,7 +3,7 @@ patch
 	include "materials\models\player\shared_player_gear.vmt"
 	insert
 	{
-		"$basetexture"				"models\webcoop\characters\german\german_gear"
+		"$basetexture"				"models\player\german\german_medic_gear"
 		"$bumpmap" 					"models\player\german\german_gear_normal"
 		"$phongexponenttexture"		"models\player\german\german_gear_exp"
 		"$roughnessmultiplier"		"1"
