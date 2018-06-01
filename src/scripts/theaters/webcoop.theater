@@ -1,8 +1,10 @@
 // DEFAULT
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
+"#base"	"default_firesupport.theater"
 
 // CUSTOM
+"#base"	"special_entities.theater"
 "#base" "webcoop_weapon_american.theater"
 "#base" "webcoop_weapon_german.theater"
 "#base" "webcoop_weapon_commonwealth.theater"
@@ -11,8 +13,8 @@
 "#base"	"webcoop_unlocks_axis.theater"
 "#base"	"webcoop_unlocks_commonwealth.theater"
 "#base"	"webcoop_unlocks_weapons.theater"
-"#base"	"webcoop_firesupport.theater"
 "#base"	"webcoop_weapon_upgrades.theater"
+// "#base"	"webcoop_firesupport.theater"
 
 "theater"
 {
@@ -1567,6 +1569,8 @@
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"magazine_bazooka_wp"
 				
+				"plantable"				"fueltank"
+				
 			}
 			"cost_modifiers"
 			{
@@ -1646,6 +1650,8 @@
 				"weapon_upgrade"		"magazine_stripper_clips"
 				"weapon_upgrade"		"barrel_greased_bolt"	
 				"weapon_upgrade"		"default_bayonet"
+				
+				"plantable"				"fueltank"
 			}
 			"cost_modifiers"
 			{
@@ -1726,6 +1732,8 @@
 				"weapon_upgrade"		"barrel_greased_bolt"	
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"magazine_extended_c96"
+				
+				"plantable"				"fueltank"
 			}
 			"cost_modifiers"
 			{

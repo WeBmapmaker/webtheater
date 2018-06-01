@@ -1,0 +1,56 @@
+"#base" "base_weapon.theater"
+"#base" "base_explosives.theater"
+"#base" "base_common_ammo.theater"
+"#base" "webcoop_ammo.theater"
+
+"theater"
+{
+	"explosives"
+	{	
+		"fueltank_fire"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_aoe"
+			"Model"						"models\destructible\20lfuel.mdl"
+			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"			"100"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"	"0"
+			"DetonateDamageRadius"		"240"
+			"FuseTime"					"3"
+			"Cookable"					"0"
+			"DetonateUnderwater"		"0"
+			"ImpactDetonation"			"1"
+			"RocketStartSpeed"			"2000"
+			"ShakeAmplitude"			"0"
+			"UseVPhysics"				"1"
+			"Elasticity"				"0.0"
+			"Deafen"					"0"
+			"AreaDamageTime"			"32"
+			"AreaDamageFrequency"		"0.44"
+			"AreaDamageMinRadius"		"240"
+			"AreaDamageMaxRadius"		"260"
+			"AreaDamageGrowSpeed"		"9"
+			"AreaDamageAmount"			"18"
+			"Health"					"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_molotov_explosion"
+				"DetonateWaterParticle"		"ins_molotov_explosion"
+				"TrailParticle"				"molotov_trail"
+				"BroadcastAll"				"1"
+				"FollowOrigin"				"1"
+				"NormalUp"					"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Molotov.Burn"
+				"BounceSound"			"Weapon_M67.Bounce"
+				"ExtinguishSound"		"Molotov.Extinguish"
+			}
+		}
+		
+	}
+}
