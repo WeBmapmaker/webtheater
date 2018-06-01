@@ -36,7 +36,9 @@
 //							  Format: "give" "fuel <number>"
 //							  Format: "give" "item <weapon/upgrade name>"
 //							  Format: "give" "health <number>" (negative numbers do silent oof owie)
-// 
+//
+
+"#base" "special_entities.theater"
 
 "theater"
 {
@@ -67,6 +69,7 @@
 			"actions"
 			{
 				"plant"				"ammo_pouch_allied"
+				"command"			"say_team *Ammo pouch deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			
@@ -102,6 +105,7 @@
 			"actions"
 			{
 				"plant"				"ammo_pouch_axis"
+				"command"			"say_team *Ammo pouch deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			
@@ -137,6 +141,7 @@
 			"actions"
 			{
 				"plant"				"healthpack"
+				"command"			"say_team *Healthpack deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			
@@ -144,6 +149,40 @@
 			{
 				"give"				"health 100"
 				"sound"				"Deployable_AmmoPouch.Use"
+			}
+		}
+		
+		"fueltank"
+		{
+			"printname"				"Fueltank"
+			"print_description" 	"Spawn an explosive fueltank"
+			"icon"					"hud_doi/plantable_fueltank"
+			
+			"health"				"50"
+			
+			"quantity"				"2"
+			"uses"					"-1"
+			
+			"cycling"
+			{
+				"sound"				"Deployable.CycleInventory"
+			}
+			
+			"planning"
+			{
+				"model"				"models\destructible\20lfuel.mdl"
+				"solid_to_players"	"0"
+			}
+			
+			"actions"
+			{
+				"spawn"				"fueltank_fire"
+				"command"			"say_team *Fueltank deployed! WARNING*"
+				"sound"				"Deployable_AmmoPouch.Plant"
+			}
+			
+			"interactions"
+			{
 			}
 		}
 
@@ -172,6 +211,7 @@
 			"actions"
 			{
 				"plant"				"crate_placeable"
+				"command"			"say_team *Crate deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			
@@ -206,6 +246,7 @@
 			"actions"
 			{
 				"plant"				"bush_placeable"
+				"command"			"say_team *Bush deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 			
