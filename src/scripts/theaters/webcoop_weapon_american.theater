@@ -176,6 +176,96 @@
 			"team_access"				"axis, americans, commonwealth"
 		}
 		
+		"weapon_red_m18"
+		{
+			"import"					"weapon_grenade_base"
+			"weapon_class"				"grenade_smoke"
+			"weapon_type"				"grenade"
+			"print_name"				"Red smoke"
+			"print_desc"				"A red smoke for officer and medic - 5sec fuse time"
+			"view_model"				"models/webcoop/weapons/v_red-m18.mdl"
+			"world_model"				"models/webcoop/weapons/w_red-m18.mdl"
+			"weapon_slot"				"explosive"
+			"act_table"					"grenade"
+			"weapon_weight"				"15"
+			"weapon_cost"				"0"
+			"class_restricted"			"1"
+			
+			"fov"
+			{
+				"fov_wpn_default"		"65"
+			}
+			
+			"explosives"
+			{
+				"entity"				"grenade_red_m18"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_smoke"
+				"clip_max_rounds"		"-1"	// no clips
+				"clip_default"			"1"
+			}
+
+			"sounds"
+			{
+				"special1"				"Weapon_smokegrenade.SpoonEject"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"		"grenade2"
+			}
+
+			"team_access"				"axis, americans, commonwealth"
+		}
+		
+		"weapon_yellow_m18"
+		{
+			"import"					"weapon_grenade_base"
+			"weapon_class"				"grenade_smoke"
+			"weapon_type"				"grenade"
+			"print_name"				"Yellow smoke"
+			"print_desc"				"A yellow smoke - contact"
+			"view_model"				"models/webcoop/weapons/v_yellow-m18.mdl"
+			"world_model"				"models/webcoop/weapons/w_yellow-m18.mdl"
+			"weapon_slot"				"explosive"
+			"act_table"					"grenade"
+			"weapon_weight"				"15"
+			"weapon_cost"				"0"
+			"class_restricted"			"1"
+			
+			"fov"
+			{
+				"fov_wpn_default"		"65"
+			}
+			
+			"explosives"
+			{
+				"entity"				"grenade_yellow_m18"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_smoke"
+				"clip_max_rounds"		"-1"	// no clips
+				"clip_default"			"1"
+			}
+
+			"sounds"
+			{
+				"special1"				"Weapon_smokegrenade.SpoonEject"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"		"grenade2"
+			}
+
+			"team_access"				"axis, americans, commonwealth"
+		}
+		
 		// ========================================
 		// MELEE
 		// ========================================		

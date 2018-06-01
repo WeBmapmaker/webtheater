@@ -12,9 +12,9 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_aoe"
 			"Model"						"models\destructible\20lfuel.mdl"
-			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DamageType"				"DMG_ACID, DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
 			"DetonateDamage"			"100"	// det damage is for when it first goes off
-			"DetonatePenetrationRadius"	"0"
+			"DetonatePenetrationRadius"	"10"
 			"DetonateDamageRadius"		"240"
 			"FuseTime"					"3"
 			"Cookable"					"0"
@@ -22,11 +22,11 @@
 			"ImpactDetonation"			"1"
 			"RocketStartSpeed"			"2000"
 			"ShakeAmplitude"			"0"
-			"UseVPhysics"				"1"
+			"UseVPhysics"				"0"
 			"Elasticity"				"0.0"
 			"Deafen"					"0"
 			"AreaDamageTime"			"32"
-			"AreaDamageFrequency"		"0.44"
+			"AreaDamageFrequency"		"0.15"
 			"AreaDamageMinRadius"		"240"
 			"AreaDamageMaxRadius"		"260"
 			"AreaDamageGrowSpeed"		"9"
@@ -49,6 +49,49 @@
 				"DetonateSound"			"Molotov.Burn"
 				"BounceSound"			"Weapon_M67.Bounce"
 				"ExtinguishSound"		"Molotov.Extinguish"
+			}
+		}
+		
+		"grenade_red_m18"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_smoke"
+			"Model"						"models/webcoop/weapons/w_red-m18.mdl"
+			"FuseTime"					"4.5"
+			"RocketStartSpeed"			"2500"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"red_smokegrenade"
+				"SmokeColor"			"40 35 33 252"	// why does the alpha have to be set so damn high?
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"			"SmokeGrenade.Burn"
+				"BounceSound"			"Weapon_SmokeGrenade.Bounce"
+			}
+		}
+		
+		"grenade_yellow_m18"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_smoke"
+			"Model"						"models/webcoop/weapons/w_yellow-m18.mdl"
+			"FuseTime"					"-1"
+			"RocketStartSpeed"			"2500"
+			"ImpactDetonation"			"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"yellow_smokegrenade"
+				"SmokeColor"			"40 35 33 252"	// why does the alpha have to be set so damn high?
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"			"SmokeGrenade.Burn"
+				"BounceSound"			"Weapon_SmokeGrenade.Bounce"
 			}
 		}
 		

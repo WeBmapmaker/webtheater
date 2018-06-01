@@ -1,0 +1,9 @@
+// Created by Crowbar 0.56
+version 1
+nodes
+  0 "R Hand" -1
+end
+skeleton
+  time 0
+    0 -4.593750 0.888672 -2.841797 -0.061611 -0.130653 -0.508918
+end

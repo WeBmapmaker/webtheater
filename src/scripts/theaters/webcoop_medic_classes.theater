@@ -26,6 +26,7 @@
 				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_m1carbine"
 				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_red_m18"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"gear"					"allied_medic_backpack"
@@ -37,6 +38,7 @@
 				"weapon"				"weapon_m1911"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"barrel_greased_bolt"
+				"weapon"				"weapon_red_m18"
 				"gear"					"allied_medic_backpack"
 				
 				"plantable"				"healthpack"
@@ -47,6 +49,7 @@
 				{
 					"weapon_m1carbine"				"0"
 					"weapon_m1911"					"0"
+					"weapon_red_m18"				"0"
 				}
 				
 				"weapon_upgrade"
