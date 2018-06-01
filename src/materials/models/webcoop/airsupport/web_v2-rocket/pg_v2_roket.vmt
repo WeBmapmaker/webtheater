@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/webcoop/airsupport/web_v2-rocket/pg_v2_roket"
+	"$bumpmap" "models/webcoop/airsupport/web_v2-rocket/pg_v2_roket_bump"
+        "$surfaceprop" "metal"
+	//"$nodecal" "1"
+	"$model" "1"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[0.1 0.2 1]"
+
+}
