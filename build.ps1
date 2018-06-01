@@ -15,4 +15,8 @@ if(-not (Test-Path $vpk))
   Break
 }
 Invoke-Expression "& `"$vpk`" .\src"
+if(Test-Path webcoop.vpk)
+{
+  Remove-Item webcoop.vpk
+}
 Move-Item src.vpk webcoop.vpk
