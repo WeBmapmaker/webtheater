@@ -1,32 +1,32 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // Plantable Objects
-// 
+//
 // Data structure
 // 		"printname"			- On-screen name of the plantable
 // 		"print_description"	- On-screen name of the plantable
 //
 // 		"icon"				- HUD icon that represents the plantable
-// 
+//
 // 		"health"			- Health of the planted object (-1 = invincible )
 // 		"quantity"			- Maximum amount of plantables available in your inventory
 // 		"uses"				- Maximum amount of times the plantable can be interacted with
-// 
+//
 // 		"cycling"			- Sub-key that contains cycling related information
 //			|
 // 			+- "sound"		- Sound that is played when this plantable is selected
-// 
+//
 //		"planning"			- Sub-key that contains planning related information
 //			|
 // 			+- "model"				- 3D model that is displayed while planting the object
 // 			+- "solid_to_players"	- When set to 1 this object will collide with players
-// 
-// 		"action"			- Sub-key that contains actions that should be executed 
+//
+// 		"action"			- Sub-key that contains actions that should be executed
 //			|				  when performing the planting action
 // 			+- "plant"		- Plants the entity on the floor
 // 			+- "spawn"		- Spawns the entity that corresponds with the specified entity name
 // 			+- "command"	- Specifies a client command that should be executed
 // 			+- "sound"		- Sound that is played when performing the action
-// 
+//
 // 		"interaction"		- Sub-key that contains interactions
 //			|
 // 			+- "command"	- Specifies a client command that should be executed
@@ -43,72 +43,72 @@
 "theater"
 {
 	"plantables"
-	{	
+	{
 		"ammo_pouch_allied"
 		{
 			"printname"				"#Plantable_AmmoPouch_Title"
 			"print_description" 	"#Plantable_AmmoPouch_Description"
 			"icon"					"hud_doi/plantable_ammopouch"
-			
+
 			"health"				"500"
-			
+
 			"quantity"				"3"
 			"uses"					"5"
-			
+
 			"cycling"
 			{
 				"sound"				"Deployable.CycleInventory"
 			}
-			
+
 			"planning"
 			{
 				"model"				"models/player/ammopouch_allied.mdl"
 				"solid_to_players"	"0"
 			}
-			
+
 			"actions"
 			{
 				"plant"				"ammo_pouch_allied"
 				"command"			"say_team *Ammo pouch deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
-			
+
 			"interactions"
 			{
 				"give"				"ammo 10"
 				"sound"				"Deployable_AmmoPouch.Use"
 			}
 		}
-		
+
 		"ammo_pouch_axis"
 		{
 			"printname"				"#Plantable_AmmoPouch_Title"
 			"print_description" 	"#Plantable_AmmoPouch_Description"
 			"icon"					"hud_doi/plantable_ammopouch"
-			
+
 			"health"				"500"
-			
+
 			"quantity"				"3"
 			"uses"					"5"
-			
+
 			"cycling"
 			{
 				"sound"				"Deployable.CycleInventory"
 			}
-			
+
 			"planning"
 			{
 				"model"				"models/player/ammopouch_axis.mdl"
 				"solid_to_players"	"0"
 			}
-			
+
 			"actions"
 			{
 				"plant"				"ammo_pouch_axis"
 				"command"			"say_team *Ammo pouch deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
-			
+
 			"interactions"
 			{
 				"give"				"ammo 10"
@@ -121,66 +121,66 @@
 			"printname"				"Medical bag"
 			"print_description" 	"Placeable medical bag"
 			"icon"					"hud_doi/plantable_healthpack"
-			
+
 			"health"				"500"
-			
+
 			"quantity"				"3"
 			"uses"					"3"
-			
+
 			"cycling"
 			{
 				"sound"				"Deployable.CycleInventory"
 			}
-			
+
 			"planning"
 			{
 				"model"				"models/webcoop/healthpack/healthpack_01.mdl"
 				"solid_to_players"	"0"
 			}
-			
+
 			"actions"
 			{
 				"plant"				"healthpack"
 				"command"			"say_team *Healthpack deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
-			
+
 			"interactions"
 			{
 				"give"				"health 100"
 				"sound"				"Deployable_AmmoPouch.Use"
 			}
 		}
-		
+
 		"fueltank"
 		{
 			"printname"				"Fueltank"
 			"print_description" 	"Spawn an explosive fueltank"
 			"icon"					"hud_doi/plantable_fueltank"
-			
+
 			"health"				"50"
-			
+
 			"quantity"				"2"
 			"uses"					"-1"
-			
+
 			"cycling"
 			{
 				"sound"				"Deployable.CycleInventory"
 			}
-			
+
 			"planning"
 			{
 				"model"				"models\destructible\20lfuel.mdl"
 				"solid_to_players"	"0"
 			}
-			
+
 			"actions"
 			{
 				"spawn"				"fueltank_fire"
 				"command"			"say_team *Fueltank deployed! WARNING*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
-			
+
 			"interactions"
 			{
 			}
@@ -191,105 +191,137 @@
 			"printname"				"Crates"
 			"print_description" 	"Placeable defensive crate"
 			"icon"					"hud_doi/plantable_crate"
-			
+
 			"health"				"350"
-			
+
 			"quantity"				"2"
 			"uses"					"-1"
-			
+
 			"cycling"
 			{
 				"sound"				"Deployable.CycleInventory"
 			}
-			
+
 			"planning"
 			{
 				"model"				"models/props_crates/static_crate_48.mdl"
 				"solid_to_players"	"1"
 			}
-			
+
 			"actions"
 			{
 				"plant"				"crate_placeable"
 				"command"			"say_team *Crate deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
-			
+
 			"interactions"
 			{
 
 			}
 		}
-		
+
 		"bush_placeable"
 		{
 			"printname"				"Bush"
 			"print_description" 	"Placeable bush for sniper"
 			"icon"					"hud_doi/plantable_bush"
-			
+
 			"health"				"350"
-			
+
 			"quantity"				"3"
 			"uses"					"-1"
-			
+
 			"cycling"
 			{
 				"sound"				"Deployable.CycleInventory"
 			}
-			
+
 			"planning"
 			{
 				"model"			"models/webcoop/plantable/plantable_bush.mdl"
 				"solid_to_players"	"0"
 			}
-			
+
 			"actions"
 			{
 				"plant"				"bush_placeable"
 				"command"			"say_team *Bush deployed!*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
-			
+
 			"interactions"
 			{
 
 			}
 		}
-		
+
 		// UNDER CONSTRUCTION
-		
+
 		"sandbag_placeable"
 		{
 			"printname"				"Sandbag"
 			"print_description" 	"Placeable defensive sandbag"
 			"icon"					"hud_doi/plantable_sandbag"
-			
+
 			"health"				"350"
-			
+
 			"quantity"				"2"
 			"uses"					"-1"
-			
+
 			"cycling"
 			{
 				"sound"				"Deployable.CycleInventory"
 			}
-			
+
 			"planning"
 			{
 				"solid_to_players"	"1"
+				"model"				"models/webcoop/healthpack/healthpack_01.mdl"
 			}
-			
+
 			"actions"
 			{
-				"plant"				"prop_dynamic model models/fortifications/prop_sandbags_a.mdl"
+				"spawn"				"sandbag_model"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
-			
+
 			"interactions"
 			{
 
 			}
 		}
-	
+
+		// Entity used to pre-cache the sandbag model
+		"sandbag_precache"
+		{
+			"printname"				"ONLY FOR PRE-CACHE"
+			"print_description" 	"."
+			"icon"					"hud_doi/plantable_sandbag"
+
+			"health"				"350"
+
+			"quantity"				"2"
+			"uses"					"-1"
+
+			"cycling"
+			{
+			}
+
+			"planning"
+			{
+				"solid_to_players"	"0"
+				"model"				"models/webcoop/plantable/plantable_sandbag.mdl"
+			}
+
+			"actions"
+			{
+			}
+
+			"interactions"
+			{
+			}
+		}
+
 	}
 }

@@ -6,7 +6,7 @@
 "theater"
 {
 	"explosives"
-	{	
+	{
 		"fueltank_fire"
 		{
 			"import"					"baseGrenade"
@@ -22,7 +22,7 @@
 			"ImpactDetonation"			"1"
 			"RocketStartSpeed"			"2000"
 			"ShakeAmplitude"			"0"
-			"UseVPhysics"				"0"
+			"UseVPhysics"				"1"
 			"Elasticity"				"0.0"
 			"Deafen"					"0"
 			"AreaDamageTime"			"32"
@@ -34,7 +34,7 @@
 			"Health"					"50"
 			"ReactExplosions"			"1"
 			"ReactBullets"				"1"
-			
+
 			"Particles"
 			{
 				"DetonateParticle"			"ins_molotov_explosion"
@@ -51,7 +51,33 @@
 				"ExtinguishSound"		"Molotov.Extinguish"
 			}
 		}
-		
+
+		"sandbag_model"
+		{
+			"import"					"baseGrenade"
+			//"entity_class"				"grenade_frag"
+			"entity_class"					"prop_dynamic"
+			"Model"						"models/webcoop/plantable/plantable_sandbag.mdl"
+			"DetonateDamage"			"0"
+			"DetonatePenetrationRadius"	"120"
+			"DetonateDamageRadius"		"0"
+			"FuseTime"					"2048"
+			"RocketStartSpeed"			"2000"
+
+			"physicsmode"			"1"
+
+			"Health"					"500"
+			"ReactExplosions"			"0"
+			"ReactBullets"				"0"
+			"HighExplosive"				"0"
+
+			"ShakeAmplitude"			"0"
+			"ShakeFrequency"			"0"
+			"ShakeDuration"				"2.2"
+			"ShakeRadius"				"0"
+		}
+
+
 		"grenade_red_m18"
 		{
 			"import"					"baseGrenade"
@@ -59,20 +85,20 @@
 			"Model"						"models/webcoop/weapons/w_red-m18.mdl"
 			"FuseTime"					"4.5"
 			"RocketStartSpeed"			"2500"
-			
+
 			"Particles"
 			{
 				"DetonateParticle"		"red_smokegrenade"
 				"SmokeColor"			"40 35 33 252"	// why does the alpha have to be set so damn high?
 			}
-			
+
 			"Sounds"
 			{
 				"DetonateSound"			"SmokeGrenade.Burn"
 				"BounceSound"			"Weapon_SmokeGrenade.Bounce"
 			}
 		}
-		
+
 		"grenade_yellow_m18"
 		{
 			"import"					"baseGrenade"
@@ -81,19 +107,18 @@
 			"FuseTime"					"-1"
 			"RocketStartSpeed"			"2500"
 			"ImpactDetonation"			"1"
-			
+
 			"Particles"
 			{
 				"DetonateParticle"		"yellow_smokegrenade"
 				"SmokeColor"			"40 35 33 252"	// why does the alpha have to be set so damn high?
 			}
-			
+
 			"Sounds"
 			{
 				"DetonateSound"			"SmokeGrenade.Burn"
 				"BounceSound"			"Weapon_SmokeGrenade.Bounce"
 			}
 		}
-		
 	}
 }
