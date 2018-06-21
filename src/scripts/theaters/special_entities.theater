@@ -7,33 +7,36 @@
 {
 	"explosives"
 	{
-		"fueltank_fire"
+
+		"grenade_fueltank"
 		{
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_aoe"
 			"Model"						"models\destructible\20lfuel.mdl"
-			"DamageType"				"DMG_ACID, DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
-			"DetonateDamage"			"100"	// det damage is for when it first goes off
-			"DetonatePenetrationRadius"	"10"
-			"DetonateDamageRadius"		"240"
-			"FuseTime"					"3"
-			"Cookable"					"0"
-			"DetonateUnderwater"		"0"
-			"ImpactDetonation"			"1"
+
+			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"			"400"
+			"DetonatePenetrationRadius"	"80"
+			"DetonateDamageRadius"		"480"
+			"FuseTime"					"-1"
 			"RocketStartSpeed"			"2000"
-			"ShakeAmplitude"			"0"
-			"UseVPhysics"				"1"
-			"Elasticity"				"0.0"
-			"Deafen"					"0"
-			"AreaDamageTime"			"32"
-			"AreaDamageFrequency"		"0.15"
-			"AreaDamageMinRadius"		"240"
-			"AreaDamageMaxRadius"		"260"
-			"AreaDamageGrowSpeed"		"9"
-			"AreaDamageAmount"			"18"
-			"Health"					"50"
+
+			"Health"					"5"
 			"ReactExplosions"			"1"
 			"ReactBullets"				"1"
+			"HighExplosive"				"1"
+
+			"AreaDamageTime"			"32"
+			"AreaDamageFrequency"		"0.28"
+			"AreaDamageMinRadius"		"160"
+			"AreaDamageMaxRadius"		"260"
+			"AreaDamageGrowSpeed"		"48"
+			"AreaDamageAmount"			"32"
+
+			"ShakeAmplitude"			"600"
+			"ShakeFrequency"			"120"
+			"ShakeDuration"				"2.2"
+			"ShakeRadius"				"2000"
 
 			"Particles"
 			{

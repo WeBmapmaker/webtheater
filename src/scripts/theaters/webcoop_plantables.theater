@@ -44,6 +44,10 @@
 {
 	"plantables"
 	{
+		//##########################################################################
+		//################## DEFAULT PLANTABLE ENTITIES ############################
+		//##########################################################################
+
 		"ammo_pouch_allied"
 		{
 			"printname"				"#Plantable_AmmoPouch_Title"
@@ -69,7 +73,8 @@
 			"actions"
 			{
 				"plant"				"ammo_pouch_allied"
-				"command"			"say_team *Ammo pouch deployed!*"
+				// Added fun fact about "sac magique" -> "magic bag"
+				"command"			"say_team *Ammo pouch deployed!* ; sm_hsay *SAC MAGIQUE ! SAC MAGIQUE !*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 
@@ -105,7 +110,8 @@
 			"actions"
 			{
 				"plant"				"ammo_pouch_axis"
-				"command"			"say_team *Ammo pouch deployed!*"
+				// Added fun fact about "sac magique" -> "magic bag"
+				"command"			"say_team *Ammo pouch deployed!* ; sm_hsay *SAC MAGIQUE ! SAC MAGIQUE !*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
 
@@ -116,13 +122,17 @@
 			}
 		}
 
+		//##########################################################################
+		//################## CUSTOM PLANTABLE ENTITIES  ############################
+		//##########################################################################
+
 		"healthpack"
 		{
 			"printname"				"Medical bag"
 			"print_description" 	"Placeable medical bag"
 			"icon"					"hud_doi/plantable_healthpack"
 
-			"health"				"500"
+			"health"				"-1"
 
 			"quantity"				"3"
 			"uses"					"3"
@@ -176,7 +186,7 @@
 
 			"actions"
 			{
-				"spawn"				"fueltank_fire"
+				"spawn"				"grenade_fueltank"
 				"command"			"say_team *Fueltank deployed! WARNING*"
 				"sound"				"Deployable_AmmoPouch.Plant"
 			}
@@ -192,7 +202,7 @@
 			"print_description" 	"Placeable defensive crate"
 			"icon"					"hud_doi/plantable_crate"
 
-			"health"				"350"
+			"health"				"750"
 
 			"quantity"				"2"
 			"uses"					"-1"
@@ -227,7 +237,7 @@
 			"print_description" 	"Placeable bush for sniper"
 			"icon"					"hud_doi/plantable_bush"
 
-			"health"				"350"
+			"health"				"-1"
 
 			"quantity"				"3"
 			"uses"					"-1"
