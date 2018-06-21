@@ -1,4 +1,4 @@
-"#base" "webpvp.theater"
+"#base" "webcoop.theater"
 
 "theater"
 {
@@ -7,13 +7,13 @@
 		"axis"
 		{
 			"?invasion_TEAM_TWO_attack"
-			{			
+			{
 				"squads"
 				{
 					"#squad_german"
 					{
 						"size"				"20"
-						
+
 						"classes"
 						{
 							"template_german_officer"
@@ -22,16 +22,16 @@
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_medic"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_rifleman"	"-1"
-							
+
 							"template_german_assault"	"-1"
 
 							"template_german_support"
@@ -40,28 +40,28 @@
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_flamethrower"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_engineer"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_machinegunner"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_sniper"
 							{
 								"min"			"1"
@@ -72,15 +72,15 @@
 					}
 				}
 			}
-			
+
 			"?invasion_TEAM_TWO_defend"
-			{			
+			{
 				"squads"
 				{
 					"#squad_german"
 					{
 						"size"				"20"
-						
+
 						"classes"
 						{
 							"template_german_officer"
@@ -89,46 +89,46 @@
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_medic"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_rifleman"	"-1"
-							
+
 							"template_german_assault"	"-1"
-							
+
 							"template_german_support"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_flamethrower"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_engineer"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_machinegunner"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_german_sniper"
 							{
 								"min"			"1"
@@ -140,7 +140,7 @@
 				}
 			}
 		}
-		
+
 		"americans"
 		{
 			"?invasion_TEAM_ONE_attack"
@@ -150,7 +150,7 @@
 					"#squad_american"
 					{
 						"size"				"20"
-						
+
 						"classes"
 						{
 							"template_american_officer"
@@ -159,46 +159,46 @@
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_medic"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_rifleman"	"-1"
-							
+
 							"template_american_assault"	"-1"
-							
+
 							"template_american_support"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_flamethrower"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_engineer"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_machinegunner"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_sniper"
 							{
 								"min"			"1"
@@ -209,7 +209,7 @@
 					}
 				}
 			}
-			
+
 			"?invasion_TEAM_ONE_defend"
 			{
 				"squads"
@@ -217,7 +217,7 @@
 					"#squad_american"
 					{
 						"size"				"20"
-						
+
 						"classes"
 						{
 							"template_american_officer"
@@ -226,46 +226,46 @@
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_medic"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_rifleman"	"-1"
-							
+
 							"template_american_assault"	"-1"
-							
+
 							"template_american_support"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_flamethrower"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_engineer"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_machinegunner"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_american_sniper"
 							{
 								"min"			"1"
@@ -277,7 +277,7 @@
 				}
 			}
 		}
-		
+
 		"commonwealth"
 		{
 			"?invasion_TEAM_ONE_attack"
@@ -287,7 +287,7 @@
 					"#squad_commonwealth"
 					{
 						"size"				"20"
-						
+
 						"classes"
 						{
 							"template_british_officer"
@@ -296,46 +296,46 @@
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_medic"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_rifleman"	"-1"
-							
+
 							"template_british_assault"	"-1"
-							
+
 							"template_british_support"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_flamethrower"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_engineer"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_machinegunner"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_sniper"
 							{
 								"min"			"1"
@@ -346,7 +346,7 @@
 					}
 				}
 			}
-			
+
 			"?invasion_TEAM_ONE_defend"
 			{
 				"squads"
@@ -354,7 +354,7 @@
 					"#squad_commonwealth"
 					{
 						"size"				"20"
-						
+
 						"classes"
 						{
 							"template_british_officer"
@@ -363,46 +363,46 @@
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_medic"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_rifleman"	"-1"
-							
+
 							"template_british_assault"	"-1"
-							
+
 							"template_british_support"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_flamethrower"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_engineer"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_machinegunner"
 							{
 								"min"			"1"
 								"max"			"2"
 								"max_threshold" "12"
 							}
-							
+
 							"template_british_sniper"
 							{
 								"min"			"1"

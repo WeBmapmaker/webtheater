@@ -182,6 +182,7 @@
 				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_red_m18"
 				"weapon"				"weapon_mk2"
 				"gear"					"american_light_kit"
 				"weapon"				"weapon_binoculars_american"
@@ -190,12 +191,15 @@
 			{
 				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_m1carbine"
-				"weapon"			  "weapon_m1paratrooper"
+				"weapon"			  	"weapon_m1paratrooper"
 				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_sw1917"
 				"weapon"				"weapon_mk2"
 				"weapon"				"weapon_binoculars_american"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_red_m18"
+				"weapon"				"weapon_yellow_m18"
 
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"default_optics"
@@ -215,6 +219,9 @@
 					"weapon_m1911"			"2"
 					"weapon_sw1917"			"1"
 					"weapon_mk2" 			"3"
+					"weapon_smoke"			"1"
+					"weapon_red_m18"		"3"
+					"weapon_yellow_m18"	"2"
 				}
 
 				"weapon_upgrade"
@@ -274,6 +281,8 @@
 				"weapon"				"weapon_webley"
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no36"
+				"weapon"				"weapon_no79"
+
 				"weapon"				"weapon_binoculars_british"
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_bayonet"
@@ -293,6 +302,7 @@
 					"weapon_webley"				"2"
 					"weapon_browninghp"			"3"
 					"weapon_no36" 				"3"
+					"weapon_no79"				"1"
 				}
 
 				"weapon_upgrade"
@@ -353,6 +363,7 @@
 				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_splintering"
 				"weapon"				"weapon_binoculars_german"
+				"weapon"				"weapon_nebelhandgranate"
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_stripper_clips"
@@ -369,6 +380,7 @@
 					"weapon_c96"					"4"
 					"weapon_stielhandgranate" 		"3"
 					"weapon_splintering" 			"4"
+					"weapon_nebelhandgranate"		"1"
 				}
 
 				"weapon_upgrade"
@@ -411,6 +423,8 @@
 				"weapon"				"weapon_m1garand"
 				"weapon_upgrade"		"default_sling"
 				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_yellow_m18"
+				"weapon"				"weapon_red_m18"
 				"gear"					"american_light_kit"
 			}
 			"allowed_items"
@@ -426,6 +440,10 @@
 				"weapon_upgrade"		"magazine_stripper_clips"
 				"weapon_upgrade"		"barrel_greased_bolt"
                 "weapon_upgrade"        "underbarrel_rifle_grenade_springfield"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_yellow_m18"
+				"weapon"				"weapon_red_m18"
+
 				"gear"					"gear_radio"
 				"plantable"				"crate_placeable"
 			}
@@ -439,6 +457,9 @@
 					"weapon_m1911"					"5"
 					"weapon_sw1917"					"4"
 					"weapon_mk2"					"3"
+					"weapon_smoke"					"1"
+					"weapon_yellow_m18"				"2"
+					"weapon_red_m18"				"3"
 					"weapon_binoculars_american"	"2"
 				}
 
@@ -512,6 +533,8 @@
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no69"
 				"weapon"				"weapon_no36"
+				"weapon"				"weapon_no79"
+
 				"weapon"                "weapon_binoculars_british"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"default_bayonet"
@@ -531,6 +554,7 @@
 					"weapon_browninghp"			"5"
 					"weapon_no69"				"3"
 					"weapon_no36"				"3"
+					"weapon_no79"				"1"
 					"weapon_binoculars_british"	"2"
 				}
 
@@ -605,6 +629,7 @@
 				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_splintering"
 				"weapon"				"weapon_binoculars_german"
+				"weapon"				"weapon_nebelhandgranate"
 				"weapon_upgrade"		"magazine_stripper_clips"
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_sling"
@@ -622,6 +647,7 @@
 					"weapon_p38"				"5"
 					"weapon_stielhandgranate"	"3"
 					"weapon_splintering"		"4"
+					"weapon_nebelhandgranate"	"1"
 					"weapon_binoculars_german"	"2"
 				}
 
@@ -683,6 +709,7 @@
 				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_m3greasegun"
 				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_yellow_m18"
 				"weapon"				"weapon_mk2"
 				"gear"					"american_light_kit"
 			}
@@ -693,6 +720,9 @@
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_sw1917"
 				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_yellow_m18"
+
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_clips_sw1917"
 				"gear"					"gear_radio"
@@ -706,6 +736,8 @@
 					"weapon_m1911"			"4"
 					"weapon_sw1917"			"3"
 					"weapon_mk2"			"3"
+					"weapon_smoke"			"1"
+					"weapon_yellow_m18"	"2"
 				}
 				"weapon_upgrade"
 				{
@@ -768,6 +800,7 @@
 				"weapon"				"weapon_webley"
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no69"
+				"weapon"				"weapon_no79"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_speedloader_webley"
 				"gear"					"gear_radio_commonwealth"
@@ -783,6 +816,7 @@
 					"weapon_webley"		"2"
 					"weapon_browninghp"	"4"
 					"weapon_no69"		"3"
+					"weapon_no79"		"1"
 				}
 
 				"weapon_upgrade"
@@ -851,6 +885,7 @@
 				"weapon"				"weapon_ppk"
 				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_splintering"
+				"weapon"				"weapon_nebelhandgranate"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_extended_c96"
 				"gear"					"gear_radio_german"
@@ -865,6 +900,7 @@
 					"weapon_ppk"				"4"
 					"weapon_stielhandgranate"	"3"
 					"weapon_splintering"		"4"
+					"weapon_nebelhandgranate"	"1"
 					"weapon_binoculars_german"	"1"
 				}
 
@@ -1126,6 +1162,8 @@
 				"weapon"				"weapon_mk2"
 				"weapon"                "weapon_binoculars_american"
 				"weapon_upgrade"		"magazine_clips_sw1917"
+
+				"plantable"			"fueltank"
 			}
 			"cost_modifiers"
 			{
@@ -1193,6 +1231,8 @@
 				"weapon"				"weapon_no36"
 				"weapon"				"weapon_binoculars_british"
 				"weapon_upgrade"		"magazine_speedloader_webley"
+
+				"plantable"			"fueltank"
 			}
 			"cost_modifiers"
 			{
@@ -1260,6 +1300,8 @@
 				"weapon"				"weapon_luger"
 				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_binoculars_german"
+
+				"plantable"			"fueltank"
 			}
 			"cost_modifiers"
 			{
@@ -1314,6 +1356,7 @@
 				"weapon"				"weapon_springfield"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_yellow_m18"
 				"gear"					"american_light_kit"
 			}
 			"allowed_items"
@@ -1323,6 +1366,9 @@
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_sw1917"
 				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_yellow_m18"
+
 				"weapon"				"weapon_binoculars_american"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"optic_scope_7x"
@@ -1340,6 +1386,8 @@
 					"weapon_m1911"					"3"
 					"weapon_sw1917"					"2"
 					"weapon_binoculars_american"	"1"
+					"weapon_smoke"					"1"
+					"weapon_yellow_m18"			"2"
 				}
 				"weapon_upgrade"
 				{
@@ -1401,6 +1449,7 @@
 				"weapon"				"weapon_welrod"
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no36"
+				"weapon"				"weapon_no79"
 				"weapon"				"weapon_binoculars_british"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"optic_scope_7x"
@@ -1416,6 +1465,7 @@
 					"weapon_enfield" 			"1"
 					"weapon_welrod" 			"1"
 					"weapon_browninghp" 		"3"
+					"weapon_no79"				"1"
 					"weapon_binoculars_british" "1"
 				}
 				"weapon_upgrade"
@@ -1479,6 +1529,7 @@
 				"weapon"				"weapon_ppk"
 				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_binoculars_german"
+				"weapon"				"weapon_nebelhandgranate"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_4x"
 				"weapon_upgrade"		"default_sling"
@@ -1493,6 +1544,7 @@
 					"weapon_k98"				"1"
 					"weapon_g43"				"7"
 					"weapon_ppk"				"3"
+					"weapon_nebelhandgranate"	"1"
 					"weapon_binoculars_german" 	"1"
 				}
 
@@ -1569,7 +1621,6 @@
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"magazine_bazooka_wp"
 
-				//"plantable"				"fueltank"
 
 			}
 			"cost_modifiers"
@@ -1651,7 +1702,6 @@
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_bayonet"
 
-				//"plantable"				"fueltank"
 			}
 			"cost_modifiers"
 			{
@@ -1733,7 +1783,6 @@
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"magazine_extended_c96"
 
-				//"plantable"				"fueltank"
 			}
 			"cost_modifiers"
 			{
